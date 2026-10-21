@@ -1,0 +1,16 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Spanish Socialist Workers' Party (PSOE),psoe,195999,36.497
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,People's Party (PP),pp,175131,32.611
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Vox (Vox),vox,54273,10.106
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Assembly for Asturias United Left–More Country–Asturian Left (IU–MP–IAS),fa,40774,7.593
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,We Can Asturias (Podemos Asturies),podemos,21052,3.920
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Asturias Forum (Foro),,19652,3.659
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,SOS Asturias–Empty Spain (SOS Asturias),,5838,1.087
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Citizens–Party of the Citizenry (CS),,4974,0.926
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Animalist Party with the Environment (PACMA),,3271,0.609
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Greens–Equo Asturias (V–Q),,1717,0.320
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Communist Party of the Workers of Spain (PCTE),,1401,0.261
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Andecha Astur (Andecha),,1245,0.232
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,Unite Principality (SMP),,1148,0.214
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,For a Fairer World (PUM+J),,789,0.147
+aut-AS-2023-05-28,2023-05-28,autonomicas,AS,33,State of Spain Unionist Party (PUEDE),,236,0.044

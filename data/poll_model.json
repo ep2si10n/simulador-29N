@@ -1,0 +1,2745 @@
+{
+ "generated": "2026-10-20",
+ "elections": [
+  "aut-AN-2018-12-02",
+  "aut-AN-2022-06-19",
+  "aut-AN-2026-05-17",
+  "aut-AR-2019-05-26",
+  "aut-AR-2023-05-28",
+  "aut-AR-2026-02-08",
+  "aut-AS-2023-05-28",
+  "aut-CB-2023-05-28",
+  "aut-CL-2019-05-26",
+  "aut-CL-2022-02-13",
+  "aut-CL-2026-03-15",
+  "aut-CM-2023-05-28",
+  "aut-CN-2019-05-26",
+  "aut-CN-2023-05-28",
+  "aut-CT-2021-02-14",
+  "aut-CT-2024-05-12",
+  "aut-EX-2019-05-26",
+  "aut-EX-2023-05-28",
+  "aut-EX-2025-12-21",
+  "aut-GA-2020-07-12",
+  "aut-GA-2024-02-18",
+  "aut-IB-2019-05-26",
+  "aut-IB-2023-05-28",
+  "aut-MC-2019-05-26",
+  "aut-MC-2023-05-28",
+  "aut-MD-2019-05-26",
+  "aut-MD-2021-05-04",
+  "aut-MD-2023-05-28",
+  "aut-NC-2019-05-26",
+  "aut-NC-2023-05-28",
+  "aut-PV-2020-07-12",
+  "aut-PV-2024-04-21",
+  "aut-RI-2023-05-28",
+  "aut-VC-2019-04-28",
+  "aut-VC-2023-05-28",
+  "eur-2019-05-26",
+  "eur-2024-06-09",
+  "gen-2019A",
+  "gen-2019N",
+  "gen-2023"
+ ],
+ "n_polls": 3276,
+ "pollster_mae": {
+  "40db": [
+   [
+    "aut-AN-2018-12-02",
+    2.65
+   ],
+   [
+    "aut-AN-2022-06-19",
+    2.117
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.233
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.425
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.462
+   ],
+   [
+    "aut-CL-2026-03-15",
+    2.033
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.012
+   ],
+   [
+    "aut-EX-2025-12-21",
+    3.05
+   ],
+   [
+    "aut-GA-2020-07-12",
+    2.22
+   ],
+   [
+    "aut-GA-2024-02-18",
+    1.117
+   ],
+   [
+    "aut-MD-2019-05-26",
+    2.15
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.533
+   ],
+   [
+    "aut-PV-2020-07-12",
+    2.067
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.943
+   ],
+   [
+    "aut-VC-2019-04-28",
+    2.083
+   ],
+   [
+    "aut-VC-2023-05-28",
+    2.417
+   ],
+   [
+    "eur-2019-05-26",
+    2.6
+   ],
+   [
+    "eur-2024-06-09",
+    0.8
+   ],
+   [
+    "gen-2019A",
+    0.89
+   ],
+   [
+    "gen-2019N",
+    1.083
+   ],
+   [
+    "gen-2023",
+    1.65
+   ]
+  ],
+  "actuatech": [
+   [
+    "aut-MC-2023-05-28",
+    4.16
+   ]
+  ],
+  "actuatechinternapsoe": [
+   [
+    "aut-MC-2023-05-28",
+    4.16
+   ]
+  ],
+  "agoraintegral": [
+   [
+    "aut-AN-2022-06-19",
+    2.283
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.625
+   ],
+   [
+    "aut-CN-2023-05-28",
+    2.2
+   ],
+   [
+    "aut-EX-2019-05-26",
+    3.88
+   ],
+   [
+    "aut-EX-2023-05-28",
+    1.7
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.5
+   ]
+  ],
+  "am": [
+   [
+    "aut-AR-2019-05-26",
+    2.1
+   ],
+   [
+    "aut-AR-2023-05-28",
+    0.833
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.256
+   ]
+  ],
+  "atlasintel": [
+   [
+    "gen-2023",
+    1.8
+   ]
+  ],
+  "aztiker": [
+   [
+    "aut-NC-2023-05-28",
+    0.675
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.867
+   ]
+  ],
+  "c17": [
+   [
+    "gen-2023",
+    2.35
+   ]
+  ],
+  "cataluna": [
+   [
+    "aut-CT-2024-05-12",
+    1.283
+   ]
+  ],
+  "celestetel": [
+   [
+    "aut-AN-2018-12-02",
+    4.98
+   ],
+   [
+    "aut-AN-2022-06-19",
+    2.15
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.317
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.387
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.288
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.56
+   ],
+   [
+    "aut-CT-2021-02-14",
+    1.578
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.038
+   ],
+   [
+    "aut-EX-2025-12-21",
+    3.075
+   ],
+   [
+    "aut-GA-2020-07-12",
+    2.84
+   ],
+   [
+    "aut-GA-2024-02-18",
+    1.767
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.24
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.72
+   ],
+   [
+    "aut-PV-2020-07-12",
+    2.083
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.714
+   ],
+   [
+    "aut-VC-2019-04-28",
+    2.35
+   ],
+   [
+    "eur-2019-05-26",
+    1.87
+   ],
+   [
+    "eur-2024-06-09",
+    0.767
+   ],
+   [
+    "gen-2019A",
+    1.29
+   ],
+   [
+    "gen-2019N",
+    0.8
+   ],
+   [
+    "gen-2023",
+    1.225
+   ]
+  ],
+  "cemop": [
+   [
+    "aut-MC-2019-05-26",
+    2.671
+   ],
+   [
+    "aut-MC-2023-05-28",
+    1.55
+   ]
+  ],
+  "centra": [
+   [
+    "aut-AN-2026-05-17",
+    1.402
+   ]
+  ],
+  "ceo": [
+   [
+    "aut-CT-2024-05-12",
+    2.816
+   ]
+  ],
+  "cies": [
+   [
+    "aut-NC-2019-05-26",
+    1.15
+   ],
+   [
+    "aut-NC-2023-05-28",
+    1.043
+   ]
+  ],
+  "cis": [
+   [
+    "aut-AN-2022-06-19",
+    1.683
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.8
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.633
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.838
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.717
+   ],
+   [
+    "aut-CT-2021-02-14",
+    1.778
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.95
+   ],
+   [
+    "aut-EX-2025-12-21",
+    2.875
+   ],
+   [
+    "aut-GA-2020-07-12",
+    2.6
+   ],
+   [
+    "aut-GA-2024-02-18",
+    2.133
+   ],
+   [
+    "aut-MD-2021-05-04",
+    3.7
+   ],
+   [
+    "aut-PV-2020-07-12",
+    3.5
+   ],
+   [
+    "aut-PV-2024-04-21",
+    1.343
+   ],
+   [
+    "eur-2024-06-09",
+    1.3
+   ],
+   [
+    "gen-2019N",
+    1.991
+   ],
+   [
+    "gen-2023",
+    0.838
+   ]
+  ],
+  "cissociometrica": [
+   [
+    "gen-2023",
+    0.95
+   ]
+  ],
+  "cluster17": [
+   [
+    "aut-CT-2024-05-12",
+    0.813
+   ],
+   [
+    "eur-2024-06-09",
+    0.678
+   ],
+   [
+    "gen-2023",
+    0.875
+   ]
+  ],
+  "commentia": [
+   [
+    "aut-AN-2026-05-17",
+    2.18
+   ]
+  ],
+  "data10": [
+   [
+    "aut-AN-2022-06-19",
+    2.933
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.28
+   ],
+   [
+    "aut-AR-2023-05-28",
+    0.967
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.4
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.65
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.68
+   ],
+   [
+    "aut-CM-2023-05-28",
+    2.78
+   ],
+   [
+    "aut-CN-2023-05-28",
+    1.817
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.013
+   ],
+   [
+    "aut-EX-2023-05-28",
+    1.075
+   ],
+   [
+    "aut-EX-2025-12-21",
+    1.875
+   ],
+   [
+    "aut-GA-2024-02-18",
+    1.017
+   ],
+   [
+    "aut-IB-2023-05-28",
+    2.029
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.717
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.743
+   ],
+   [
+    "aut-VC-2023-05-28",
+    1.55
+   ],
+   [
+    "eur-2024-06-09",
+    0.437
+   ],
+   [
+    "gen-2023",
+    1.333
+   ]
+  ],
+  "deimosestadistica": [
+   [
+    "aut-AN-2018-12-02",
+    4.633
+   ]
+  ],
+  "demometrica": [
+   [
+    "aut-NC-2023-05-28",
+    1.657
+   ]
+  ],
+  "demoscopiaservicios": [
+   [
+    "aut-MD-2019-05-26",
+    2.4
+   ]
+  ],
+  "demoscopiayservicios": [
+   [
+    "aut-CT-2021-02-14",
+    1.262
+   ],
+   [
+    "aut-GA-2020-07-12",
+    2.3
+   ],
+   [
+    "aut-GA-2024-02-18",
+    0.817
+   ],
+   [
+    "aut-MD-2021-05-04",
+    1.66
+   ],
+   [
+    "aut-PV-2020-07-12",
+    1.6
+   ],
+   [
+    "aut-VC-2023-05-28",
+    1.6
+   ],
+   [
+    "gen-2019A",
+    2.4
+   ],
+   [
+    "gen-2019N",
+    0.409
+   ]
+  ],
+  "demosgal": [
+   [
+    "aut-GA-2024-02-18",
+    2.567
+   ]
+  ],
+  "dym": [
+   [
+    "aut-AN-2022-06-19",
+    2.45
+   ],
+   [
+    "aut-CT-2021-02-14",
+    1.575
+   ],
+   [
+    "aut-CT-2024-05-12",
+    0.875
+   ],
+   [
+    "aut-EX-2025-12-21",
+    3.275
+   ],
+   [
+    "aut-GA-2024-02-18",
+    0.55
+   ],
+   [
+    "aut-MD-2019-05-26",
+    2.05
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.74
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.6
+   ],
+   [
+    "aut-PV-2024-04-21",
+    1.15
+   ],
+   [
+    "aut-VC-2023-05-28",
+    2.333
+   ],
+   [
+    "eur-2019-05-26",
+    2.071
+   ],
+   [
+    "eur-2024-06-09",
+    0.644
+   ],
+   [
+    "gen-2019A",
+    1.02
+   ],
+   [
+    "gen-2019N",
+    1.433
+   ],
+   [
+    "gen-2023",
+    1.975
+   ]
+  ],
+  "easiest": [
+   [
+    "aut-AN-2022-06-19",
+    3.333
+   ],
+   [
+    "aut-CB-2023-05-28",
+    2.18
+   ]
+  ],
+  "elconfidencial": [
+   [
+    "gen-2023",
+    1.575
+   ]
+  ],
+  "electopanelandalucia": [
+   [
+    "aut-AN-2026-05-17",
+    1.169
+   ]
+  ],
+  "electopanelaragon": [
+   [
+    "aut-AR-2026-02-08",
+    4.433
+   ]
+  ],
+  "electopanelcastillayleon": [
+   [
+    "aut-CL-2026-03-15",
+    8.8
+   ]
+  ],
+  "electopaneleuskadi": [
+   [
+    "aut-PV-2024-04-21",
+    9.867
+   ]
+  ],
+  "elespanol": [
+   [
+    "gen-2019A",
+    1.06
+   ]
+  ],
+  "emanalytics": [
+   [
+    "aut-AN-2018-12-02",
+    2.45
+   ],
+   [
+    "aut-AN-2022-06-19",
+    4.367
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.283
+   ],
+   [
+    "aut-AR-2019-05-26",
+    1.55
+   ],
+   [
+    "aut-AR-2023-05-28",
+    1.056
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.133
+   ],
+   [
+    "aut-AS-2023-05-28",
+    1.443
+   ],
+   [
+    "aut-CB-2023-05-28",
+    2.15
+   ],
+   [
+    "aut-CL-2019-05-26",
+    1.814
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.325
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.5
+   ],
+   [
+    "aut-CM-2023-05-28",
+    2.86
+   ],
+   [
+    "aut-CN-2019-05-26",
+    3.3
+   ],
+   [
+    "aut-CN-2023-05-28",
+    1.813
+   ],
+   [
+    "aut-CT-2021-02-14",
+    1.322
+   ],
+   [
+    "aut-CT-2024-05-12",
+    0.938
+   ],
+   [
+    "aut-EX-2019-05-26",
+    3.16
+   ],
+   [
+    "aut-EX-2023-05-28",
+    1.78
+   ],
+   [
+    "aut-EX-2025-12-21",
+    2.725
+   ],
+   [
+    "aut-GA-2020-07-12",
+    1.82
+   ],
+   [
+    "aut-GA-2024-02-18",
+    1.183
+   ],
+   [
+    "aut-IB-2019-05-26",
+    2.087
+   ],
+   [
+    "aut-IB-2023-05-28",
+    2.2
+   ],
+   [
+    "aut-MC-2019-05-26",
+    2.857
+   ],
+   [
+    "aut-MC-2023-05-28",
+    1.929
+   ],
+   [
+    "aut-MD-2019-05-26",
+    1.217
+   ],
+   [
+    "aut-MD-2021-05-04",
+    1.4
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.767
+   ],
+   [
+    "aut-NC-2019-05-26",
+    2.443
+   ],
+   [
+    "aut-NC-2023-05-28",
+    1.386
+   ],
+   [
+    "aut-PV-2020-07-12",
+    1.683
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.643
+   ],
+   [
+    "aut-RI-2023-05-28",
+    2.283
+   ],
+   [
+    "aut-VC-2019-04-28",
+    1.75
+   ],
+   [
+    "aut-VC-2023-05-28",
+    2.0
+   ],
+   [
+    "eur-2019-05-26",
+    1.93
+   ],
+   [
+    "eur-2024-06-09",
+    0.644
+   ],
+   [
+    "gen-2019A",
+    1.28
+   ],
+   [
+    "gen-2019N",
+    0.427
+   ],
+   [
+    "gen-2023",
+    0.85
+   ]
+  ],
+  "feedback": [
+   [
+    "aut-CT-2021-02-14",
+    1.378
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.375
+   ]
+  ],
+  "fundaciogadeso": [
+   [
+    "aut-IB-2023-05-28",
+    2.783
+   ]
+  ],
+  "gad3": [
+   [
+    "aut-AN-2018-12-02",
+    1.48
+   ],
+   [
+    "aut-AN-2022-06-19",
+    0.95
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.16
+   ],
+   [
+    "aut-AR-2023-05-28",
+    1.022
+   ],
+   [
+    "aut-AR-2026-02-08",
+    0.833
+   ],
+   [
+    "aut-AS-2023-05-28",
+    0.933
+   ],
+   [
+    "aut-CB-2023-05-28",
+    1.583
+   ],
+   [
+    "aut-CL-2022-02-13",
+    0.95
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.125
+   ],
+   [
+    "aut-CM-2023-05-28",
+    1.12
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.125
+   ],
+   [
+    "aut-EX-2023-05-28",
+    0.775
+   ],
+   [
+    "aut-EX-2025-12-21",
+    1.475
+   ],
+   [
+    "aut-GA-2020-07-12",
+    0.825
+   ],
+   [
+    "aut-GA-2024-02-18",
+    1.083
+   ],
+   [
+    "aut-MC-2023-05-28",
+    2.45
+   ],
+   [
+    "aut-MD-2019-05-26",
+    1.78
+   ],
+   [
+    "aut-MD-2021-05-04",
+    1.68
+   ],
+   [
+    "aut-MD-2023-05-28",
+    1.533
+   ],
+   [
+    "aut-PV-2020-07-12",
+    1.283
+   ],
+   [
+    "aut-PV-2024-04-21",
+    1.014
+   ],
+   [
+    "aut-RI-2023-05-28",
+    1.52
+   ],
+   [
+    "aut-VC-2019-04-28",
+    3.733
+   ],
+   [
+    "aut-VC-2023-05-28",
+    0.967
+   ],
+   [
+    "eur-2019-05-26",
+    1.629
+   ],
+   [
+    "eur-2024-06-09",
+    0.589
+   ],
+   [
+    "gen-2019A",
+    0.944
+   ],
+   [
+    "gen-2019N",
+    0.618
+   ],
+   [
+    "gen-2023",
+    0.912
+   ]
+  ],
+  "gadeso": [
+   [
+    "aut-IB-2019-05-26",
+    2.329
+   ],
+   [
+    "aut-IB-2023-05-28",
+    2.15
+   ]
+  ],
+  "gaps": [
+   [
+    "aut-CT-2024-05-12",
+    1.712
+   ]
+  ],
+  "gesop": [
+   [
+    "aut-AN-2026-05-17",
+    1.817
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.433
+   ],
+   [
+    "aut-AS-2023-05-28",
+    0.786
+   ],
+   [
+    "aut-CL-2022-02-13",
+    2.213
+   ],
+   [
+    "aut-CL-2026-03-15",
+    2.42
+   ],
+   [
+    "aut-CT-2021-02-14",
+    0.878
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.125
+   ],
+   [
+    "aut-EX-2025-12-21",
+    2.3
+   ],
+   [
+    "aut-GA-2020-07-12",
+    1.78
+   ],
+   [
+    "aut-GA-2024-02-18",
+    1.117
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.76
+   ],
+   [
+    "eur-2024-06-09",
+    0.989
+   ],
+   [
+    "gen-2019A",
+    1.88
+   ],
+   [
+    "gen-2019N",
+    0.856
+   ],
+   [
+    "gen-2023",
+    1.675
+   ]
+  ],
+  "giinternacional": [
+   [
+    "gen-2019N",
+    1.209
+   ]
+  ],
+  "gipeyop": [
+   [
+    "eur-2019-05-26",
+    2.74
+   ]
+  ],
+  "gizaker": [
+   [
+    "aut-NC-2019-05-26",
+    3.986
+   ],
+   [
+    "aut-NC-2023-05-28",
+    2.371
+   ],
+   [
+    "aut-PV-2020-07-12",
+    1.883
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.886
+   ]
+  ],
+  "hamalgama": [
+   [
+    "aut-AN-2022-06-19",
+    1.986
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.84
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.687
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.325
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.84
+   ],
+   [
+    "aut-CN-2019-05-26",
+    2.786
+   ],
+   [
+    "aut-CT-2021-02-14",
+    2.038
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.1
+   ],
+   [
+    "aut-GA-2020-07-12",
+    2.72
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.02
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.783
+   ],
+   [
+    "aut-PV-2020-07-12",
+    2.233
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.729
+   ],
+   [
+    "eur-2024-06-09",
+    0.862
+   ],
+   [
+    "gen-2019A",
+    1.39
+   ],
+   [
+    "gen-2019N",
+    0.836
+   ],
+   [
+    "gen-2023",
+    1.262
+   ]
+  ],
+  "ibes": [
+   [
+    "aut-IB-2019-05-26",
+    1.287
+   ],
+   [
+    "aut-IB-2023-05-28",
+    1.562
+   ]
+  ],
+  "ikerfel": [
+   [
+    "aut-PV-2020-07-12",
+    1.3
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.786
+   ]
+  ],
+  "imop": [
+   [
+    "aut-AN-2022-06-19",
+    1.433
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.25
+   ],
+   [
+    "aut-AR-2023-05-28",
+    1.289
+   ],
+   [
+    "aut-CL-2022-02-13",
+    2.057
+   ],
+   [
+    "aut-CM-2023-05-28",
+    1.24
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.325
+   ],
+   [
+    "aut-MD-2019-05-26",
+    1.633
+   ],
+   [
+    "aut-VC-2019-04-28",
+    2.817
+   ],
+   [
+    "aut-VC-2023-05-28",
+    2.117
+   ],
+   [
+    "gen-2019A",
+    1.322
+   ],
+   [
+    "gen-2019N",
+    1.333
+   ],
+   [
+    "gen-2023",
+    0.938
+   ]
+  ],
+  "inpactos": [
+   [
+    "aut-NC-2019-05-26",
+    1.583
+   ]
+  ],
+  "investgroup": [
+   [
+    "aut-VC-2019-04-28",
+    3.717
+   ],
+   [
+    "aut-VC-2023-05-28",
+    1.6
+   ]
+  ],
+  "invymark": [
+   [
+    "aut-AN-2018-12-02",
+    3.82
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.28
+   ],
+   [
+    "gen-2019A",
+    1.262
+   ],
+   [
+    "gen-2019N",
+    1.917
+   ],
+   [
+    "gen-2023",
+    2.15
+   ]
+  ],
+  "ipsos": [
+   [
+    "aut-CT-2024-05-12",
+    1.788
+   ],
+   [
+    "aut-MD-2021-05-04",
+    3.74
+   ],
+   [
+    "gen-2019N",
+    1.156
+   ],
+   [
+    "gen-2023",
+    0.862
+   ]
+  ],
+  "llorentecuenca": [
+   [
+    "gen-2019A",
+    1.9
+   ],
+   [
+    "gen-2019N",
+    2.733
+   ]
+  ],
+  "metroscopia": [
+   [
+    "aut-AN-2018-12-02",
+    3.82
+   ],
+   [
+    "aut-CB-2023-05-28",
+    1.38
+   ],
+   [
+    "aut-CL-2022-02-13",
+    0.675
+   ],
+   [
+    "aut-CT-2021-02-14",
+    1.244
+   ],
+   [
+    "aut-MD-2019-05-26",
+    1.75
+   ],
+   [
+    "aut-MD-2021-05-04",
+    1.58
+   ],
+   [
+    "eur-2019-05-26",
+    2.129
+   ],
+   [
+    "eur-2024-06-09",
+    0.733
+   ],
+   [
+    "gen-2019A",
+    0.789
+   ],
+   [
+    "gen-2023",
+    0.937
+   ]
+  ],
+  "ncreport": [
+   [
+    "aut-AN-2018-12-02",
+    4.82
+   ],
+   [
+    "aut-AN-2022-06-19",
+    1.683
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.48
+   ],
+   [
+    "aut-AR-2019-05-26",
+    1.75
+   ],
+   [
+    "aut-AR-2023-05-28",
+    1.1
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.629
+   ],
+   [
+    "aut-AS-2023-05-28",
+    0.625
+   ],
+   [
+    "aut-CB-2023-05-28",
+    1.74
+   ],
+   [
+    "aut-CL-2019-05-26",
+    1.5
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.138
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.24
+   ],
+   [
+    "aut-CM-2023-05-28",
+    3.367
+   ],
+   [
+    "aut-CN-2019-05-26",
+    2.4
+   ],
+   [
+    "aut-CN-2023-05-28",
+    2.583
+   ],
+   [
+    "aut-CT-2021-02-14",
+    1.689
+   ],
+   [
+    "aut-CT-2024-05-12",
+    0.95
+   ],
+   [
+    "aut-EX-2019-05-26",
+    4.1
+   ],
+   [
+    "aut-EX-2023-05-28",
+    1.88
+   ],
+   [
+    "aut-EX-2025-12-21",
+    3.8
+   ],
+   [
+    "aut-GA-2020-07-12",
+    2.24
+   ],
+   [
+    "aut-GA-2024-02-18",
+    2.017
+   ],
+   [
+    "aut-IB-2019-05-26",
+    3.1
+   ],
+   [
+    "aut-IB-2023-05-28",
+    2.617
+   ],
+   [
+    "aut-MC-2019-05-26",
+    3.25
+   ],
+   [
+    "aut-MC-2023-05-28",
+    2.08
+   ],
+   [
+    "aut-MD-2019-05-26",
+    0.4
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.52
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.68
+   ],
+   [
+    "aut-NC-2019-05-26",
+    1.7
+   ],
+   [
+    "aut-NC-2023-05-28",
+    2.129
+   ],
+   [
+    "aut-PV-2020-07-12",
+    2.367
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.757
+   ],
+   [
+    "aut-RI-2023-05-28",
+    1.56
+   ],
+   [
+    "aut-VC-2019-04-28",
+    2.933
+   ],
+   [
+    "aut-VC-2023-05-28",
+    1.02
+   ],
+   [
+    "eur-2019-05-26",
+    2.32
+   ],
+   [
+    "eur-2024-06-09",
+    0.789
+   ],
+   [
+    "gen-2019A",
+    1.467
+   ],
+   [
+    "gen-2019N",
+    1.04
+   ],
+   [
+    "gen-2023",
+    1.4
+   ]
+  ],
+  "oficinademoscopia": [
+   [
+    "aut-CL-2022-02-13",
+    2.95
+   ]
+  ],
+  "opinometre": [
+   [
+    "aut-CT-2021-02-14",
+    1.1
+   ],
+   [
+    "aut-CT-2024-05-12",
+    2.95
+   ],
+   [
+    "gen-2023",
+    1.2
+   ]
+  ],
+  "panecyl": [
+   [
+    "aut-CL-2022-02-13",
+    1.467
+   ]
+  ],
+  "perfiles": [
+   [
+    "aut-CN-2023-05-28",
+    1.529
+   ]
+  ],
+  "podemos": [
+   [
+    "gen-2019A",
+    1.86
+   ]
+  ],
+  "pp": [
+   [
+    "aut-AN-2026-05-17",
+    2.0
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.7
+   ],
+   [
+    "gen-2019A",
+    1.9
+   ]
+  ],
+  "psdeg": [
+   [
+    "aut-GA-2024-02-18",
+    0.65
+   ]
+  ],
+  "psoe": [
+   [
+    "aut-AN-2018-12-02",
+    3.9
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.7
+   ],
+   [
+    "aut-CM-2023-05-28",
+    3.167
+   ],
+   [
+    "gen-2019A",
+    1.9
+   ],
+   [
+    "gen-2019N",
+    0.767
+   ]
+  ],
+  "sigmados": [
+   [
+    "aut-AN-2018-12-02",
+    2.46
+   ],
+   [
+    "aut-AN-2022-06-19",
+    2.217
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.58
+   ],
+   [
+    "aut-AR-2019-05-26",
+    1.887
+   ],
+   [
+    "aut-AR-2023-05-28",
+    1.1
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.178
+   ],
+   [
+    "aut-CL-2019-05-26",
+    1.043
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.013
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.38
+   ],
+   [
+    "aut-CM-2023-05-28",
+    1.42
+   ],
+   [
+    "aut-CT-2021-02-14",
+    1.337
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.35
+   ],
+   [
+    "aut-EX-2019-05-26",
+    2.64
+   ],
+   [
+    "aut-EX-2025-12-21",
+    1.575
+   ],
+   [
+    "aut-GA-2020-07-12",
+    1.88
+   ],
+   [
+    "aut-GA-2024-02-18",
+    0.45
+   ],
+   [
+    "aut-IB-2019-05-26",
+    1.329
+   ],
+   [
+    "aut-MD-2019-05-26",
+    2.333
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.02
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.767
+   ],
+   [
+    "aut-NC-2019-05-26",
+    1.271
+   ],
+   [
+    "aut-NC-2023-05-28",
+    1.929
+   ],
+   [
+    "aut-PV-2020-07-12",
+    2.833
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.571
+   ],
+   [
+    "aut-VC-2019-04-28",
+    1.85
+   ],
+   [
+    "aut-VC-2023-05-28",
+    3.0
+   ],
+   [
+    "eur-2019-05-26",
+    1.65
+   ],
+   [
+    "eur-2024-06-09",
+    0.778
+   ],
+   [
+    "gen-2019A",
+    1.0
+   ],
+   [
+    "gen-2019N",
+    0.933
+   ],
+   [
+    "gen-2023",
+    1.05
+   ]
+  ],
+  "simplelogica": [
+   [
+    "aut-CN-2023-05-28",
+    1.625
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.7
+   ],
+   [
+    "aut-MD-2023-05-28",
+    1.1
+   ],
+   [
+    "aut-NC-2023-05-28",
+    1.957
+   ],
+   [
+    "aut-PV-2024-04-21",
+    1.014
+   ],
+   [
+    "aut-VC-2023-05-28",
+    3.567
+   ],
+   [
+    "gen-2019A",
+    0.56
+   ],
+   [
+    "gen-2023",
+    1.75
+   ]
+  ],
+  "socialdata": [
+   [
+    "aut-AN-2022-06-19",
+    1.883
+   ]
+  ],
+  "sociometrica": [
+   [
+    "aut-AN-2018-12-02",
+    2.733
+   ],
+   [
+    "aut-AN-2022-06-19",
+    2.783
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.167
+   ],
+   [
+    "aut-AR-2023-05-28",
+    0.956
+   ],
+   [
+    "aut-AR-2026-02-08",
+    0.767
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.6
+   ],
+   [
+    "aut-CL-2026-03-15",
+    1.967
+   ],
+   [
+    "aut-CM-2023-05-28",
+    2.48
+   ],
+   [
+    "aut-CT-2021-02-14",
+    1.05
+   ],
+   [
+    "aut-CT-2024-05-12",
+    0.663
+   ],
+   [
+    "aut-EX-2023-05-28",
+    1.15
+   ],
+   [
+    "aut-EX-2025-12-21",
+    1.0
+   ],
+   [
+    "aut-GA-2020-07-12",
+    3.22
+   ],
+   [
+    "aut-GA-2024-02-18",
+    1.217
+   ],
+   [
+    "aut-MD-2019-05-26",
+    2.033
+   ],
+   [
+    "aut-MD-2021-05-04",
+    1.6
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.75
+   ],
+   [
+    "aut-PV-2020-07-12",
+    1.933
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.786
+   ],
+   [
+    "aut-VC-2023-05-28",
+    2.6
+   ],
+   [
+    "eur-2024-06-09",
+    0.756
+   ],
+   [
+    "gen-2019A",
+    0.756
+   ],
+   [
+    "gen-2019N",
+    0.791
+   ],
+   [
+    "gen-2023",
+    0.762
+   ]
+  ],
+  "sociometro": [
+   [
+    "aut-PV-2024-04-21",
+    0.833
+   ]
+  ],
+  "sondaxe": [
+   [
+    "aut-AS-2023-05-28",
+    2.517
+   ],
+   [
+    "aut-GA-2020-07-12",
+    2.24
+   ],
+   [
+    "aut-GA-2024-02-18",
+    0.883
+   ],
+   [
+    "eur-2024-06-09",
+    0.722
+   ],
+   [
+    "gen-2019A",
+    1.011
+   ],
+   [
+    "gen-2019N",
+    0.973
+   ],
+   [
+    "gen-2023",
+    1.5
+   ]
+  ],
+  "swdemoscopia": [
+   [
+    "aut-AN-2018-12-02",
+    2.76
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.92
+   ],
+   [
+    "aut-RI-2023-05-28",
+    2.817
+   ],
+   [
+    "gen-2019N",
+    1.0
+   ]
+  ],
+  "sym": [
+   [
+    "aut-EX-2025-12-21",
+    5.8
+   ]
+  ],
+  "symconsulting": [
+   [
+    "aut-AN-2018-12-02",
+    4.78
+   ],
+   [
+    "aut-CL-2026-03-15",
+    2.85
+   ],
+   [
+    "aut-GA-2020-07-12",
+    3.7
+   ],
+   [
+    "aut-MD-2021-05-04",
+    2.76
+   ],
+   [
+    "aut-PV-2020-07-12",
+    1.817
+   ],
+   [
+    "aut-VC-2019-04-28",
+    3.883
+   ],
+   [
+    "gen-2019N",
+    1.629
+   ]
+  ],
+  "targetpoing": [
+   [
+    "aut-CL-2022-02-13",
+    2.394
+   ]
+  ],
+  "targetpoint": [
+   [
+    "aut-AN-2022-06-19",
+    2.567
+   ],
+   [
+    "aut-AN-2026-05-17",
+    1.16
+   ],
+   [
+    "aut-AR-2023-05-28",
+    1.0
+   ],
+   [
+    "aut-AR-2026-02-08",
+    1.278
+   ],
+   [
+    "aut-CL-2022-02-13",
+    1.825
+   ],
+   [
+    "aut-CL-2026-03-15",
+    2.8
+   ],
+   [
+    "aut-CM-2023-05-28",
+    1.96
+   ],
+   [
+    "aut-CT-2024-05-12",
+    1.338
+   ],
+   [
+    "aut-EX-2025-12-21",
+    1.175
+   ],
+   [
+    "aut-GA-2024-02-18",
+    1.3
+   ],
+   [
+    "aut-MD-2023-05-28",
+    0.767
+   ],
+   [
+    "aut-PV-2024-04-21",
+    0.657
+   ],
+   [
+    "aut-VC-2023-05-28",
+    2.317
+   ],
+   [
+    "eur-2024-06-09",
+    0.843
+   ],
+   [
+    "gen-2023",
+    2.375
+   ]
+  ],
+  "thinkingheads": [
+   [
+    "aut-AN-2022-06-19",
+    2.95
+   ]
+  ],
+  "topposition": [
+   [
+    "aut-AN-2018-12-02",
+    3.02
+   ],
+   [
+    "aut-MD-2019-05-26",
+    2.233
+   ],
+   [
+    "aut-MD-2021-05-04",
+    3.36
+   ],
+   [
+    "gen-2019A",
+    2.075
+   ],
+   [
+    "gen-2023",
+    1.525
+   ]
+  ],
+  "tsa": [
+   [
+    "aut-CN-2019-05-26",
+    3.257
+   ],
+   [
+    "aut-CN-2023-05-28",
+    3.067
+   ]
+  ],
+  "ucam": [
+   [
+    "aut-MC-2019-05-26",
+    2.517
+   ],
+   [
+    "aut-MC-2023-05-28",
+    1.833
+   ]
+  ],
+  "yougov": [
+   [
+    "aut-CT-2024-05-12",
+    1.35
+   ],
+   [
+    "gen-2023",
+    1.025
+   ]
+  ]
+ },
+ "house_effects": {
+  "40db|aa": -0.1076,
+  "40db|ac": -0.1184,
+  "40db|bildu": -0.0119,
+  "40db|bng": -0.0608,
+  "40db|erc": 0.0881,
+  "40db|fa": 0.1251,
+  "40db|fv": 0.0585,
+  "40db|junts": -0.0506,
+  "40db|pnv": 0.008,
+  "40db|podemos": 0.1754,
+  "40db|pp": -0.0357,
+  "40db|psoe": -0.0136,
+  "40db|salf": -0.1059,
+  "40db|vox": -0.0163,
+  "actuatech|pp": -0.0826,
+  "actuatech|psoe": 0.0729,
+  "actuatech|vox": -0.0169,
+  "actuatechinternapsoe|pp": -0.0826,
+  "actuatechinternapsoe|psoe": 0.0729,
+  "actuatechinternapsoe|vox": -0.0169,
+  "agoraintegral|cc": -0.0437,
+  "agoraintegral|fa": -0.0333,
+  "agoraintegral|pp": -0.0536,
+  "agoraintegral|psoe": 0.0277,
+  "agoraintegral|vox": 0.0345,
+  "am|fa": 0.0798,
+  "am|podemos": 0.3,
+  "am|pp": 0.0162,
+  "am|psoe": -0.0354,
+  "am|salf": 0.0062,
+  "am|vox": -0.0897,
+  "atlasintel|bildu": 0.0714,
+  "atlasintel|erc": -0.1053,
+  "atlasintel|fa": 0.103,
+  "atlasintel|junts": -0.0208,
+  "atlasintel|pnv": -0.1212,
+  "atlasintel|pp": -0.0232,
+  "atlasintel|psoe": -0.0242,
+  "atlasintel|vox": 0.1237,
+  "aztiker|bildu": 0.0081,
+  "aztiker|fa": -0.0202,
+  "aztiker|pnv": -0.0134,
+  "aztiker|podemos": 0.1212,
+  "aztiker|pp": -0.0455,
+  "aztiker|upn": -0.006,
+  "aztiker|vox": -0.0079,
+  "c17|fa": 0.0596,
+  "c17|pp": -0.007,
+  "c17|psoe": -0.0473,
+  "c17|vox": 0.0538,
+  "cataluna|erc": 0.0998,
+  "cataluna|junts": 0.0046,
+  "cataluna|pp": -0.0515,
+  "cataluna|psoe": -0.0024,
+  "cataluna|vox": 0.0042,
+  "celestetel|aa": -0.1111,
+  "celestetel|ac": -0.0614,
+  "celestetel|bildu": -0.037,
+  "celestetel|bng": -0.1225,
+  "celestetel|erc": 0.031,
+  "celestetel|fa": 0.0638,
+  "celestetel|fv": -0.024,
+  "celestetel|junts": -0.1909,
+  "celestetel|pnv": 0.0161,
+  "celestetel|podemos": 0.1292,
+  "celestetel|pp": 0.0197,
+  "celestetel|psoe": 0.0011,
+  "celestetel|salf": -0.2394,
+  "celestetel|vox": -0.1083,
+  "cemop|podemos": 0.131,
+  "cemop|pp": -0.0386,
+  "cemop|psoe": -0.012,
+  "cemop|vox": 0.0165,
+  "centra|pp": 0.0064,
+  "centra|vox": 0.0145,
+  "ceo|ac": -0.1587,
+  "ceo|erc": 0.2019,
+  "ceo|junts": -0.0247,
+  "ceo|pp": -0.1061,
+  "ceo|psoe": 0.0298,
+  "ceo|vox": -0.0833,
+  "cies|bildu": -0.0047,
+  "cies|pp": 0.1005,
+  "cies|psoe": -0.0097,
+  "cies|upn": -0.0201,
+  "cies|vox": 0.1161,
+  "cis|aa": -0.0365,
+  "cis|ac": -0.0731,
+  "cis|bildu": -0.0865,
+  "cis|bng": -0.0584,
+  "cis|erc": 0.0406,
+  "cis|fa": 0.1092,
+  "cis|junts": -0.2424,
+  "cis|pnv": 0.0233,
+  "cis|podemos": 0.2215,
+  "cis|pp": -0.0669,
+  "cis|psoe": 0.0595,
+  "cis|salf": -0.1429,
+  "cis|vox": -0.1316,
+  "cissociometrica|bildu": -0.0595,
+  "cissociometrica|erc": -0.0439,
+  "cissociometrica|fa": 0.0474,
+  "cissociometrica|junts": -0.0208,
+  "cissociometrica|pnv": 0.0152,
+  "cissociometrica|pp": -0.0015,
+  "cissociometrica|psoe": -0.0426,
+  "cissociometrica|vox": 0.0565,
+  "cluster17|ac": -0.0482,
+  "cluster17|bildu": 0.0238,
+  "cluster17|erc": 0.0978,
+  "cluster17|fa": 0.0908,
+  "cluster17|junts": 0.0163,
+  "cluster17|pnv": 0.0303,
+  "cluster17|podemos": 0.0135,
+  "cluster17|pp": -0.0109,
+  "cluster17|psoe": -0.0357,
+  "cluster17|salf": -0.1329,
+  "cluster17|vox": 0.0183,
+  "commentia|aa": -0.0868,
+  "commentia|pp": -0.0056,
+  "commentia|psoe": -0.0175,
+  "commentia|vox": 0.0894,
+  "data10|aa": -0.0903,
+  "data10|ac": -0.0439,
+  "data10|bildu": 0.0284,
+  "data10|bng": -0.0117,
+  "data10|cc": -0.006,
+  "data10|erc": 0.1234,
+  "data10|fa": 0.1054,
+  "data10|fv": -0.0138,
+  "data10|junts": 0.0134,
+  "data10|pnv": -0.0053,
+  "data10|podemos": 0.1232,
+  "data10|pp": -0.0003,
+  "data10|psoe": -0.0262,
+  "data10|vox": -0.0077,
+  "deimosestadistica|pp": 0.0676,
+  "deimosestadistica|vox": -0.2485,
+  "demometrica|bildu": -0.0234,
+  "demometrica|pp": 0.1507,
+  "demometrica|psoe": -0.0097,
+  "demometrica|upn": -0.0417,
+  "demometrica|vox": -0.031,
+  "demoscopiaservicios|fa": -0.0884,
+  "demoscopiaservicios|pp": -0.0135,
+  "demoscopiaservicios|psoe": 0.0012,
+  "demoscopiaservicios|vox": -0.0562,
+  "demoscopiayservicios|bildu": -0.0904,
+  "demoscopiayservicios|bng": -0.0599,
+  "demoscopiayservicios|erc": -0.0318,
+  "demoscopiayservicios|fa": 0.0183,
+  "demoscopiayservicios|fv": -0.0161,
+  "demoscopiayservicios|junts": -0.0012,
+  "demoscopiayservicios|pnv": 0.0093,
+  "demoscopiayservicios|pp": 0.0052,
+  "demoscopiayservicios|psoe": 0.0102,
+  "demoscopiayservicios|vox": 0.0021,
+  "demosgal|bng": -0.0879,
+  "demosgal|fa": 0.3,
+  "demosgal|pp": -0.0109,
+  "demosgal|psoe": 0.0827,
+  "demosgal|vox": 0.2319,
+  "dym|ac": -0.0789,
+  "dym|bildu": 0.0405,
+  "dym|bng": -0.0032,
+  "dym|erc": 0.02,
+  "dym|fa": -0.0036,
+  "dym|fv": 0.0483,
+  "dym|junts": -0.0096,
+  "dym|pnv": 0.0077,
+  "dym|podemos": -0.0364,
+  "dym|pp": -0.0357,
+  "dym|psoe": 0.0054,
+  "dym|salf": -0.1304,
+  "dym|vox": 0.0333,
+  "easiest|pp": -0.0805,
+  "easiest|psoe": 0.0372,
+  "easiest|vox": 0.0732,
+  "elconfidencial|fa": 0.0136,
+  "elconfidencial|pp": -0.002,
+  "elconfidencial|psoe": -0.0368,
+  "elconfidencial|vox": 0.0565,
+  "electopanelandalucia|pp": -0.0016,
+  "electopanelandalucia|vox": 0.0169,
+  "electopanelaragon|pp": 0.0731,
+  "electopanelaragon|psoe": 0.0478,
+  "electopanelaragon|vox": -0.0431,
+  "electopanelcastillayleon|pp": -0.1158,
+  "electopanelcastillayleon|psoe": 0.1212,
+  "electopanelcastillayleon|salf": 0.3,
+  "electopanelcastillayleon|vox": -0.1199,
+  "electopaneleuskadi|bildu": 0.0218,
+  "electopaneleuskadi|fa": 0.0707,
+  "electopaneleuskadi|pnv": -0.0057,
+  "electopaneleuskadi|podemos": 0.3,
+  "electopaneleuskadi|pp": 0.2482,
+  "electopaneleuskadi|vox": 0.3,
+  "elespanol|pp": 0.0259,
+  "elespanol|psoe": -0.0197,
+  "elespanol|vox": 0.0227,
+  "emanalytics|aa": -0.0738,
+  "emanalytics|ac": -0.083,
+  "emanalytics|bildu": -0.0231,
+  "emanalytics|bng": -0.0824,
+  "emanalytics|cc": -0.0677,
+  "emanalytics|erc": 0.044,
+  "emanalytics|fa": 0.018,
+  "emanalytics|fv": -0.0018,
+  "emanalytics|junts": -0.1572,
+  "emanalytics|pnv": 0.0038,
+  "emanalytics|podemos": 0.3,
+  "emanalytics|pp": -0.0507,
+  "emanalytics|psoe": -0.025,
+  "emanalytics|salf": -0.2173,
+  "emanalytics|upn": -0.0252,
+  "emanalytics|vox": 0.0179,
+  "feedback|ac": -0.0559,
+  "feedback|erc": 0.0091,
+  "feedback|fa": -0.0122,
+  "feedback|junts": -0.0827,
+  "feedback|pp": -0.06,
+  "feedback|psoe": -0.037,
+  "feedback|vox": -0.0474,
+  "fundaciogadeso|pp": -0.0726,
+  "fundaciogadeso|psoe": -0.0138,
+  "fundaciogadeso|vox": -0.012,
+  "gad3|aa": -0.059,
+  "gad3|ac": -0.0175,
+  "gad3|bildu": -0.0295,
+  "gad3|bng": -0.0407,
+  "gad3|erc": 0.0966,
+  "gad3|fa": -0.1048,
+  "gad3|fv": -0.0441,
+  "gad3|junts": -0.0137,
+  "gad3|pnv": 0.0278,
+  "gad3|podemos": 0.2125,
+  "gad3|pp": 0.0047,
+  "gad3|psoe": 0.0198,
+  "gad3|salf": -0.1952,
+  "gad3|vox": -0.0412,
+  "gadeso|pp": -0.0638,
+  "gadeso|psoe": -0.0121,
+  "gadeso|vox": -0.0818,
+  "gaps|ac": -0.0789,
+  "gaps|erc": 0.073,
+  "gaps|fa": -0.0517,
+  "gaps|junts": 0.017,
+  "gaps|pp": -0.1152,
+  "gaps|psoe": -0.0405,
+  "gaps|vox": -0.0208,
+  "gesop|aa": -0.0903,
+  "gesop|ac": -0.0313,
+  "gesop|bng": -0.049,
+  "gesop|erc": 0.0071,
+  "gesop|fa": 0.084,
+  "gesop|junts": -0.1553,
+  "gesop|podemos": 0.2927,
+  "gesop|pp": -0.0372,
+  "gesop|psoe": 0.0049,
+  "gesop|salf": -0.1347,
+  "gesop|vox": -0.0242,
+  "giinternacional|bildu": 0.0606,
+  "giinternacional|erc": 0.0556,
+  "giinternacional|fa": 0.2639,
+  "giinternacional|junts": -0.0909,
+  "giinternacional|pp": 0.0064,
+  "giinternacional|psoe": 0.006,
+  "giinternacional|vox": -0.1236,
+  "gipeyop|junts": -0.1556,
+  "gipeyop|pp": -0.0875,
+  "gipeyop|psoe": -0.0669,
+  "gipeyop|vox": 0.1344,
+  "gizaker|bildu": -0.0082,
+  "gizaker|fa": 0.0505,
+  "gizaker|pnv": 0.0163,
+  "gizaker|podemos": 0.3,
+  "gizaker|pp": 0.0545,
+  "gizaker|psoe": -0.0115,
+  "gizaker|upn": -0.0888,
+  "gizaker|vox": 0.0819,
+  "hamalgama|aa": -0.1285,
+  "hamalgama|ac": -0.0702,
+  "hamalgama|bildu": -0.0452,
+  "hamalgama|bng": -0.1106,
+  "hamalgama|cc": -0.0548,
+  "hamalgama|erc": 0.048,
+  "hamalgama|fa": 0.0203,
+  "hamalgama|junts": -0.0192,
+  "hamalgama|pnv": 0.0202,
+  "hamalgama|podemos": 0.2123,
+  "hamalgama|pp": 0.0192,
+  "hamalgama|psoe": -0.0328,
+  "hamalgama|salf": -0.1884,
+  "hamalgama|vox": 0.0322,
+  "ibes|pp": -0.0565,
+  "ibes|psoe": -0.0278,
+  "ibes|vox": -0.0034,
+  "ikerfel|bildu": -0.0067,
+  "ikerfel|fa": 0.0505,
+  "ikerfel|pnv": -0.0068,
+  "ikerfel|podemos": 0.0606,
+  "ikerfel|pp": -0.0217,
+  "ikerfel|psoe": -0.0189,
+  "ikerfel|vox": -0.0385,
+  "imop|aa": -0.066,
+  "imop|ac": -0.0526,
+  "imop|bildu": -0.0538,
+  "imop|erc": 0.1109,
+  "imop|fa": -0.0162,
+  "imop|fv": 0.1084,
+  "imop|junts": 0.0152,
+  "imop|pnv": 0.0064,
+  "imop|podemos": 0.0833,
+  "imop|pp": -0.0177,
+  "imop|psoe": -0.0042,
+  "imop|salf": -0.0667,
+  "imop|vox": -0.0625,
+  "inpactos|bildu": -0.0345,
+  "inpactos|upn": -0.0237,
+  "inpactos|vox": 0.3,
+  "investgroup|fv": -0.0785,
+  "investgroup|pp": 0.0255,
+  "investgroup|psoe": 0.0567,
+  "investgroup|vox": -0.0991,
+  "invymark|erc": -0.0513,
+  "invymark|fa": -0.0013,
+  "invymark|junts": -0.1053,
+  "invymark|pnv": -0.0444,
+  "invymark|pp": 0.0206,
+  "invymark|psoe": -0.0055,
+  "invymark|vox": -0.109,
+  "ipsos|ac": -0.0965,
+  "ipsos|bildu": -0.0238,
+  "ipsos|erc": 0.1328,
+  "ipsos|fa": 0.1147,
+  "ipsos|junts": -0.0909,
+  "ipsos|pnv": 0.0093,
+  "ipsos|pp": -0.0365,
+  "ipsos|psoe": -0.0041,
+  "ipsos|vox": -0.0493,
+  "llorentecuenca|erc": -0.094,
+  "llorentecuenca|fa": 0.1944,
+  "llorentecuenca|junts": -0.1053,
+  "llorentecuenca|pp": 0.0733,
+  "llorentecuenca|psoe": -0.0229,
+  "llorentecuenca|vox": -0.1772,
+  "metroscopia|bildu": -0.125,
+  "metroscopia|erc": -0.0288,
+  "metroscopia|fa": -0.0445,
+  "metroscopia|junts": -0.2381,
+  "metroscopia|pnv": 0.0192,
+  "metroscopia|podemos": 0.096,
+  "metroscopia|pp": 0.0006,
+  "metroscopia|psoe": -0.0126,
+  "metroscopia|salf": -0.0906,
+  "metroscopia|vox": -0.0433,
+  "ncreport|aa": -0.1285,
+  "ncreport|ac": -0.0526,
+  "ncreport|bildu": -0.0572,
+  "ncreport|bng": -0.1175,
+  "ncreport|cc": -0.0302,
+  "ncreport|erc": 0.0502,
+  "ncreport|fa": -0.0048,
+  "ncreport|fv": -0.0481,
+  "ncreport|junts": -0.133,
+  "ncreport|pnv": 0.0175,
+  "ncreport|podemos": 0.2148,
+  "ncreport|pp": 0.0058,
+  "ncreport|psoe": -0.02,
+  "ncreport|salf": -0.2174,
+  "ncreport|upn": -0.0495,
+  "ncreport|vox": -0.1259,
+  "oficinademoscopia|pp": 0.017,
+  "oficinademoscopia|psoe": 0.0289,
+  "oficinademoscopia|vox": -0.0928,
+  "opinometre|ac": -0.2456,
+  "opinometre|erc": 0.1171,
+  "opinometre|fa": 0.011,
+  "opinometre|junts": -0.1691,
+  "opinometre|pp": -0.0413,
+  "opinometre|psoe": -0.0403,
+  "opinometre|vox": -0.1153,
+  "panecyl|pp": 0.0052,
+  "panecyl|psoe": -0.0271,
+  "panecyl|vox": -0.029,
+  "perfiles|cc": -0.0166,
+  "perfiles|pp": -0.0397,
+  "perfiles|psoe": -0.0392,
+  "perfiles|vox": -0.1224,
+  "podemos|pp": -0.0339,
+  "podemos|psoe": 0.0151,
+  "podemos|vox": 0.1521,
+  "pp|aa": -0.0556,
+  "pp|pp": 0.0275,
+  "pp|psoe": -0.0168,
+  "psdeg|fa": 0.193,
+  "psdeg|vox": 0.029,
+  "psoe|pp": -0.0488,
+  "psoe|psoe": 0.0218,
+  "psoe|vox": -0.084,
+  "sigmados|aa": -0.1042,
+  "sigmados|ac": -0.0848,
+  "sigmados|bildu": -0.0605,
+  "sigmados|bng": -0.0838,
+  "sigmados|erc": 0.0861,
+  "sigmados|fa": 0.0095,
+  "sigmados|fv": 0.0841,
+  "sigmados|junts": -0.0423,
+  "sigmados|pnv": 0.0389,
+  "sigmados|podemos": 0.3,
+  "sigmados|pp": 0.0003,
+  "sigmados|psoe": 0.0037,
+  "sigmados|salf": -0.2724,
+  "sigmados|upn": -0.0445,
+  "sigmados|vox": -0.0483,
+  "simplelogica|ac": -0.2281,
+  "simplelogica|bildu": 0.0071,
+  "simplelogica|cc": -0.0483,
+  "simplelogica|erc": 0.1265,
+  "simplelogica|fa": 0.0771,
+  "simplelogica|fv": 0.0874,
+  "simplelogica|junts": -0.0046,
+  "simplelogica|pnv": -0.0096,
+  "simplelogica|podemos": 0.1212,
+  "simplelogica|pp": -0.0581,
+  "simplelogica|psoe": -0.0175,
+  "simplelogica|upn": -0.0476,
+  "simplelogica|vox": -0.0123,
+  "socialdata|pp": -0.0325,
+  "socialdata|vox": 0.0691,
+  "sociometrica|aa": -0.0891,
+  "sociometrica|ac": -0.0439,
+  "sociometrica|bildu": -0.0105,
+  "sociometrica|bng": -0.0653,
+  "sociometrica|erc": 0.0103,
+  "sociometrica|fa": 0.0591,
+  "sociometrica|fv": 0.023,
+  "sociometrica|junts": -0.026,
+  "sociometrica|pnv": -0.0181,
+  "sociometrica|podemos": 0.1757,
+  "sociometrica|pp": -0.0219,
+  "sociometrica|psoe": -0.0257,
+  "sociometrica|salf": -0.1354,
+  "sociometrica|vox": 0.0009,
+  "sociometro|bildu": 0.0166,
+  "sociometro|fa": -0.0505,
+  "sociometro|pnv": 0.0086,
+  "sociometro|podemos": 0.0303,
+  "sociometro|pp": -0.0616,
+  "sociometro|vox": -0.0167,
+  "sondaxe|bildu": 0.0714,
+  "sondaxe|bng": -0.0934,
+  "sondaxe|erc": -0.04,
+  "sondaxe|fa": 0.2093,
+  "sondaxe|junts": -0.0909,
+  "sondaxe|pnv": 0.0806,
+  "sondaxe|podemos": 0.3,
+  "sondaxe|pp": -0.0159,
+  "sondaxe|psoe": -0.0103,
+  "sondaxe|salf": -0.1449,
+  "sondaxe|vox": -0.0505,
+  "swdemoscopia|erc": 0.037,
+  "swdemoscopia|fa": 0.0799,
+  "swdemoscopia|junts": -0.1212,
+  "swdemoscopia|pp": -0.0623,
+  "swdemoscopia|psoe": 0.1103,
+  "swdemoscopia|vox": -0.1838,
+  "sym|pp": -0.0077,
+  "sym|psoe": 0.1408,
+  "sym|vox": -0.1085,
+  "symconsulting|bildu": -0.0604,
+  "symconsulting|bng": -0.1443,
+  "symconsulting|erc": -0.0093,
+  "symconsulting|fa": -0.0765,
+  "symconsulting|fv": 0.1297,
+  "symconsulting|pp": -0.0124,
+  "symconsulting|psoe": 0.0236,
+  "symconsulting|vox": 0.0363,
+  "targetpoing|pp": 0.0382,
+  "targetpoing|psoe": -0.0122,
+  "targetpoing|vox": -0.1023,
+  "targetpoint|aa": -0.0903,
+  "targetpoint|ac": -0.0658,
+  "targetpoint|bildu": 0.0187,
+  "targetpoint|bng": -0.0373,
+  "targetpoint|erc": 0.1058,
+  "targetpoint|fa": 0.1025,
+  "targetpoint|fv": 0.0598,
+  "targetpoint|junts": -0.0156,
+  "targetpoint|pnv": 0.0038,
+  "targetpoint|podemos": 0.1385,
+  "targetpoint|pp": -0.0165,
+  "targetpoint|psoe": -0.0354,
+  "targetpoint|salf": -0.1164,
+  "targetpoint|vox": -0.0106,
+  "thinkingheads|pp": -0.051,
+  "thinkingheads|vox": 0.1086,
+  "topposition|erc": -0.0598,
+  "topposition|fa": -0.1268,
+  "topposition|junts": -0.0526,
+  "topposition|pnv": -0.0667,
+  "topposition|pp": 0.013,
+  "topposition|psoe": 0.0262,
+  "topposition|vox": 0.0111,
+  "tsa|cc": -0.0955,
+  "tsa|pp": -0.0522,
+  "tsa|psoe": -0.0018,
+  "tsa|vox": -0.2163,
+  "ucam|podemos": 0.1786,
+  "ucam|pp": -0.0559,
+  "ucam|psoe": 0.0017,
+  "ucam|vox": -0.0312,
+  "yougov|ac": 0.0175,
+  "yougov|bildu": -0.0952,
+  "yougov|erc": 0.125,
+  "yougov|fa": 0.0718,
+  "yougov|junts": -0.0366,
+  "yougov|pnv": -0.0,
+  "yougov|pp": -0.0423,
+  "yougov|psoe": -0.0408,
+  "yougov|vox": 0.0453
+ },
+ "industry_bias": {
+  "aa": -0.1283,
+  "ac": -0.1024,
+  "bildu": -0.0509,
+  "bng": -0.1242,
+  "cc": -0.0915,
+  "erc": 0.036,
+  "fa": 0.1869,
+  "fv": 0.0236,
+  "junts": -0.1291,
+  "pnv": 0.0002,
+  "podemos": 0.5111,
+  "pp": -0.0226,
+  "psoe": -0.0088,
+  "salf": -0.0305,
+  "upn": -0.0675,
+  "vox": 0.0569
+ },
+ "method": "fiabilidad+industria (sin casa)",
+ "sigma_relative": {
+  "7": 0.1205,
+  "30": 0.135,
+  "45": 0.1768,
+  "60": 0.1768,
+  "90": 0.1768
+ },
+ "validation": "grouped stratified 5-fold x 3 + rolling origin 2021-2026",
+ "cv_mae": {
+  "7": {
+   "actual + sesgo de la industria": 1.665,
+   "actual, semivida 28 d": 1.657,
+   "actual, semivida 7 d": 1.638,
+   "actual: recencia+fiabilidad+casa": 1.649,
+   "fiabilidad+industria (sin casa)": 1.646,
+   "media simple (30 d, sin pesos)": 1.686
+  },
+  "30": {
+   "actual + sesgo de la industria": 2.011,
+   "actual, semivida 28 d": 2.034,
+   "actual, semivida 7 d": 2.002,
+   "actual: recencia+fiabilidad+casa": 2.015,
+   "fiabilidad+industria (sin casa)": 1.961,
+   "media simple (30 d, sin pesos)": 2.083
+  },
+  "45": {
+   "actual + sesgo de la industria": 2.399,
+   "actual, semivida 28 d": 2.376,
+   "actual, semivida 7 d": 2.395,
+   "actual: recencia+fiabilidad+casa": 2.379,
+   "fiabilidad+industria (sin casa)": 2.39,
+   "media simple (30 d, sin pesos)": 2.455
+  },
+  "60": {
+   "actual + sesgo de la industria": 2.447,
+   "actual, semivida 28 d": 2.46,
+   "actual, semivida 7 d": 2.465,
+   "actual: recencia+fiabilidad+casa": 2.461,
+   "fiabilidad+industria (sin casa)": 2.408,
+   "media simple (30 d, sin pesos)": 2.534
+  },
+  "90": {
+   "actual + sesgo de la industria": 2.364,
+   "actual, semivida 28 d": 2.401,
+   "actual, semivida 7 d": 2.465,
+   "actual: recencia+fiabilidad+casa": 2.419,
+   "fiabilidad+industria (sin casa)": 2.34,
+   "media simple (30 d, sin pesos)": 2.49
+  }
+ },
+ "rolling_mae": {
+  "7": {
+   "actual + sesgo de la industria": 1.527,
+   "actual, semivida 28 d": 1.498,
+   "actual, semivida 7 d": 1.444,
+   "actual: recencia+fiabilidad+casa": 1.472,
+   "fiabilidad+industria (sin casa)": 1.474,
+   "media simple (30 d, sin pesos)": 1.51
+  },
+  "30": {
+   "actual + sesgo de la industria": 1.892,
+   "actual, semivida 28 d": 1.877,
+   "actual, semivida 7 d": 1.872,
+   "actual: recencia+fiabilidad+casa": 1.872,
+   "fiabilidad+industria (sin casa)": 1.856,
+   "media simple (30 d, sin pesos)": 1.864
+  },
+  "45": {
+   "actual + sesgo de la industria": 2.146,
+   "actual, semivida 28 d": 2.068,
+   "actual, semivida 7 d": 2.115,
+   "actual: recencia+fiabilidad+casa": 2.08,
+   "fiabilidad+industria (sin casa)": 2.098,
+   "media simple (30 d, sin pesos)": 2.137
+  },
+  "60": {
+   "actual + sesgo de la industria": 2.081,
+   "actual, semivida 28 d": 2.08,
+   "actual, semivida 7 d": 2.072,
+   "actual: recencia+fiabilidad+casa": 2.075,
+   "fiabilidad+industria (sin casa)": 1.966,
+   "media simple (30 d, sin pesos)": 2.082
+  },
+  "90": {
+   "actual + sesgo de la industria": 2.096,
+   "actual, semivida 28 d": 2.037,
+   "actual, semivida 7 d": 2.12,
+   "actual: recencia+fiabilidad+casa": 2.066,
+   "fiabilidad+industria (sin casa)": 1.977,
+   "media simple (30 d, sin pesos)": 2.149
+  }
+ },
+ "sources": {
+  "electomania-data": 48,
+  "electomania-datawrapper": 12,
+  "electomania-text": 8,
+  "wikipedia": 3208
+ },
+ "config": {
+  "method": "last",
+  "space": "pct",
+  "outlier": null,
+  "house": 20,
+  "house_rel": 2,
+  "industry": "pooled",
+  "k_ind": 1,
+  "trend": 0.15,
+  "revert": 0.3,
+  "revert_win": 365,
+  "ml": "rf",
+  "ml_p": 8,
+  "ml_frac": 0.75,
+  "ml_target": "abs",
+  "window": 90,
+  "w_exp": 0,
+  "k_mae": 2
+ },
+ "lab": {
+  "best": "Última encuesta: house=20, house_rel=2, k_ind=1, trend=0.15, revert=0.3, ml=rf, ml_p=8, ml_frac=0.75, ml_target=abs, window=90",
+  "cv_mae": 2.0633,
+  "hold_mae": 1.7262,
+  "naive_mae": 2.3827,
+  "epochs": 104,
+  "tested": 744,
+  "turnout": {
+   "by_party": [
+    {
+     "party": "fa",
+     "n": 8,
+     "slope": 0.256,
+     "r": 0.63
+    },
+    {
+     "party": "pp",
+     "n": 22,
+     "slope": 0.153,
+     "r": 0.34
+    },
+    {
+     "party": "psoe",
+     "n": 21,
+     "slope": -0.102,
+     "r": -0.25
+    },
+    {
+     "party": "vox",
+     "n": 23,
+     "slope": -0.076,
+     "r": -0.27
+    },
+    {
+     "party": "junts",
+     "n": 7,
+     "slope": -0.01,
+     "r": -0.09
+    }
+   ],
+   "n_elections": 23,
+   "abs_corr": -0.02,
+   "dt_range": [
+    -27.8,
+    9.1
+   ]
+  }
+ }
+}

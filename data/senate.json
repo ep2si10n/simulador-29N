@@ -1,0 +1,565 @@
+{
+  "constituencies": [
+    {
+      "id": "01",
+      "name": "Araba/Álava",
+      "province_id": "01",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "02",
+      "name": "Albacete",
+      "province_id": "02",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "03",
+      "name": "Alicante/Alacant",
+      "province_id": "03",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "04",
+      "name": "Almería",
+      "province_id": "04",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "05",
+      "name": "Ávila",
+      "province_id": "05",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "06",
+      "name": "Badajoz",
+      "province_id": "06",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "08",
+      "name": "Barcelona",
+      "province_id": "08",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "09",
+      "name": "Burgos",
+      "province_id": "09",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "10",
+      "name": "Cáceres",
+      "province_id": "10",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "11",
+      "name": "Cádiz",
+      "province_id": "11",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "12",
+      "name": "Castellón/Castelló",
+      "province_id": "12",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "13",
+      "name": "Ciudad Real",
+      "province_id": "13",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "14",
+      "name": "Córdoba",
+      "province_id": "14",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "15",
+      "name": "A Coruña",
+      "province_id": "15",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "16",
+      "name": "Cuenca",
+      "province_id": "16",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "17",
+      "name": "Girona",
+      "province_id": "17",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "18",
+      "name": "Granada",
+      "province_id": "18",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "19",
+      "name": "Guadalajara",
+      "province_id": "19",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "20",
+      "name": "Gipuzkoa",
+      "province_id": "20",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "21",
+      "name": "Huelva",
+      "province_id": "21",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "22",
+      "name": "Huesca",
+      "province_id": "22",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "23",
+      "name": "Jaén",
+      "province_id": "23",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "24",
+      "name": "León",
+      "province_id": "24",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "25",
+      "name": "Lleida",
+      "province_id": "25",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "26",
+      "name": "La Rioja",
+      "province_id": "26",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "27",
+      "name": "Lugo",
+      "province_id": "27",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "28",
+      "name": "Madrid",
+      "province_id": "28",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "29",
+      "name": "Málaga",
+      "province_id": "29",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "30",
+      "name": "Murcia",
+      "province_id": "30",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "31",
+      "name": "Navarra",
+      "province_id": "31",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "32",
+      "name": "Ourense",
+      "province_id": "32",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "33",
+      "name": "Asturias",
+      "province_id": "33",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "34",
+      "name": "Palencia",
+      "province_id": "34",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "36",
+      "name": "Pontevedra",
+      "province_id": "36",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "37",
+      "name": "Salamanca",
+      "province_id": "37",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "39",
+      "name": "Cantabria",
+      "province_id": "39",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "40",
+      "name": "Segovia",
+      "province_id": "40",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "41",
+      "name": "Sevilla",
+      "province_id": "41",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "42",
+      "name": "Soria",
+      "province_id": "42",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "43",
+      "name": "Tarragona",
+      "province_id": "43",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "44",
+      "name": "Teruel",
+      "province_id": "44",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "45",
+      "name": "Toledo",
+      "province_id": "45",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "46",
+      "name": "Valencia/València",
+      "province_id": "46",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "47",
+      "name": "Valladolid",
+      "province_id": "47",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "48",
+      "name": "Bizkaia",
+      "province_id": "48",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "49",
+      "name": "Zamora",
+      "province_id": "49",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "50",
+      "name": "Zaragoza",
+      "province_id": "50",
+      "seats": 4,
+      "marks": 3
+    },
+    {
+      "id": "mallorca",
+      "name": "Mallorca",
+      "province_id": "07",
+      "seats": 3,
+      "marks": 2
+    },
+    {
+      "id": "menorca",
+      "name": "Menorca",
+      "province_id": "07",
+      "seats": 1,
+      "marks": 1
+    },
+    {
+      "id": "eivissa-formentera",
+      "name": "Eivissa-Formentera",
+      "province_id": "07",
+      "seats": 1,
+      "marks": 1
+    },
+    {
+      "id": "gran-canaria",
+      "name": "Gran Canaria",
+      "province_id": "35",
+      "seats": 3,
+      "marks": 2
+    },
+    {
+      "id": "lanzarote",
+      "name": "Lanzarote",
+      "province_id": "35",
+      "seats": 1,
+      "marks": 1
+    },
+    {
+      "id": "fuerteventura",
+      "name": "Fuerteventura",
+      "province_id": "35",
+      "seats": 1,
+      "marks": 1
+    },
+    {
+      "id": "tenerife",
+      "name": "Tenerife",
+      "province_id": "38",
+      "seats": 3,
+      "marks": 2
+    },
+    {
+      "id": "la-palma",
+      "name": "La Palma",
+      "province_id": "38",
+      "seats": 1,
+      "marks": 1
+    },
+    {
+      "id": "la-gomera",
+      "name": "La Gomera",
+      "province_id": "38",
+      "seats": 1,
+      "marks": 1
+    },
+    {
+      "id": "el-hierro",
+      "name": "El Hierro",
+      "province_id": "38",
+      "seats": 1,
+      "marks": 1
+    },
+    {
+      "id": "51",
+      "name": "Ceuta",
+      "province_id": "51",
+      "seats": 2,
+      "marks": 2
+    },
+    {
+      "id": "52",
+      "name": "Melilla",
+      "province_id": "52",
+      "seats": 2,
+      "marks": 2
+    }
+  ],
+  "designated": {
+    "total": 58,
+    "by_community": [
+      {
+        "community": "Andalucía",
+        "seats": 9,
+        "by_party": {
+          "pp": 4,
+          "psoe": 3,
+          "vox": 2
+        }
+      },
+      {
+        "community": "Aragón",
+        "seats": 2,
+        "by_party": {
+          "vox": 1,
+          "psoe": 1
+        }
+      },
+      {
+        "community": "Asturias",
+        "seats": 2,
+        "by_party": {
+          "pp": 1,
+          "psoe": 1
+        }
+      },
+      {
+        "community": "Canarias",
+        "seats": 3,
+        "by_party": {
+          "pp": 1,
+          "psoe": 1,
+          "cc": 1
+        }
+      },
+      {
+        "community": "Cantabria",
+        "seats": 1,
+        "by_party": {
+          "pp": 1
+        }
+      },
+      {
+        "community": "Castilla-La Mancha",
+        "seats": 3,
+        "by_party": {
+          "pp": 1,
+          "psoe": 2
+        }
+      },
+      {
+        "community": "Castilla y León",
+        "seats": 3,
+        "by_party": {
+          "pp": 2,
+          "psoe": 1
+        }
+      },
+      {
+        "community": "Cataluña",
+        "seats": 8,
+        "by_party": {
+          "psoe": 3,
+          "pp": 1,
+          "junts": 3,
+          "erc": 1
+        }
+      },
+      {
+        "community": "Comunitat Valenciana",
+        "seats": 6,
+        "by_party": {
+          "pp": 2,
+          "psoe": 2,
+          "vox": 1,
+          "fv": 1
+        }
+      },
+      {
+        "community": "Extremadura",
+        "seats": 2,
+        "by_party": {
+          "psoe": 1,
+          "vox": 1
+        }
+      },
+      {
+        "community": "Galicia",
+        "seats": 3,
+        "by_party": {
+          "pp": 2,
+          "bng": 1
+        }
+      },
+      {
+        "community": "Illes Balears",
+        "seats": 2,
+        "by_party": {
+          "psoe": 1,
+          "pp": 1
+        }
+      },
+      {
+        "community": "La Rioja",
+        "seats": 1,
+        "by_party": {
+          "pp": 1
+        }
+      },
+      {
+        "community": "Comunidad de Madrid",
+        "seats": 7,
+        "by_party": {
+          "pp": 5,
+          "psoe": 1,
+          "fa": 1
+        }
+      },
+      {
+        "community": "Región de Murcia",
+        "seats": 2,
+        "by_party": {
+          "pp": 1,
+          "psoe": 1
+        }
+      },
+      {
+        "community": "Navarra",
+        "seats": 1,
+        "by_party": {
+          "gbai": 1
+        }
+      },
+      {
+        "community": "País Vasco",
+        "seats": 3,
+        "by_party": {
+          "pnv": 1,
+          "bildu": 1,
+          "psoe": 1
+        }
+      }
+    ],
+    "source": "Senado de España, 'Designados por Parlamentos Autonómicos (58 senadores)', senado.es, consultado 2026-10-19 (XV legislatura). Elecciones autonómicas usadas: Andalucía 17/05/2026, Aragón 08/02/2026, Castilla y León 15/03/2026, Extremadura 21/12/2025, resto 2023-2024. Grupo Mixto = Vox en designados; GPIC Madrid = Más Madrid (fa); GPIC Valencia = Compromís (fv); GPIC Navarra = Geroa Bai; GPERB = ERC/Bildu; GPPLU = Junts/CC/BNG. Base legal: LOREG arts. 165-166 (4 por provincia peninsular, 3 votos; 3 Gran Canaria/Mallorca/Tenerife con 2 votos; 1 resto islas con 1 voto; Ceuta y Melilla 2 con 2 votos). Art. 69.5 CE (1 senador por CCAA + 1 por millón de habitantes).",
+    "as_of": "2026-10-19"
+  }
+}

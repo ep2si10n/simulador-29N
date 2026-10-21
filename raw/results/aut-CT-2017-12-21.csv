@@ -1,0 +1,39 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,08,Ciutadans-Partido de la Ciudadanía,,868365,26.427
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,08,Esquerra Republicana de Catalunya-Catalunya Sí,erc,678030,20.635
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,08,Junts per Catalunya,junts,624261,18.998
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,08,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,497650,15.145
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,08,Catalunya en Comú-Podem,fa;podemos,276810,8.424
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,08,Candidatura d'Unitat Popular,,143711,4.374
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,08,Partit Popular,pp,142934,4.350
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,08,Partit Animalista Contra el Maltractament Animal,,31330,0.953
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,08,Recortes Cero - Els Verds,,8621,0.262
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Junts per Catalunya,junts,149638,36.667
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Esquerra Republicana de Catalunya-Catalunya Sí,erc,88582,21.706
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Ciutadans-Partido de la Ciudadanía,,79634,19.513
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,35197,8.625
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Candidatura d'Unitat Popular,,21708,5.319
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Catalunya en Comú-Podem,fa;podemos,16482,4.039
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Partit Popular,pp,11646,2.854
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Partit Animalista Contra el Maltractament Animal,,2582,0.633
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Recortes Cero - Els Verds,,560,0.137
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,17,Per Un Món Més Just,,241,0.059
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Junts per Catalunya,junts,78303,32.483
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Esquerra Republicana de Catalunya-Catalunya Sí,erc,64417,26.723
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Ciutadans-Partido de la Ciudadanía,,40908,16.970
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,21795,9.042
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Candidatura d'Unitat Popular,,12140,5.036
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Partit Popular,pp,10902,4.523
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Catalunya en Comú-Podem,fa;podemos,9415,3.906
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Partit Animalista Contra el Maltractament Animal,,1186,0.492
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Per Un Món Més Just,,336,0.139
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,25,Recortes Cero - Els Verds,,312,0.129
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,43,Ciutadans-Partido de la Ciudadanía,,120825,27.350
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,43,Esquerra Republicana de Catalunya-Catalunya Sí,erc,104832,23.730
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,43,Junts per Catalunya,junts,96031,21.738
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,43,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,52017,11.775
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,43,Catalunya en Comú-Podem,fa;podemos,23653,5.354
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,43,Partit Popular,pp,20188,4.570
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,43,Candidatura d'Unitat Popular,,17687,4.004
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,43,Partit Animalista Contra el Maltractament Animal,,3645,0.825
+aut-CT-2017-12-21,2017-12-21,autonomicas,CT,43,Recortes Cero - Els Verds,,794,0.180

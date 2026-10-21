@@ -1,0 +1,70 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,533051,25.038
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Esquerra Republicana de Catalunya,erc,434685,20.418
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Junts per Catalunya,junts,381541,17.921
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Vox,vox,166166,7.805
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,En Comú Podem-Podem en Comú,fa;podemos,165304,7.764
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Canditatura d'Unitat Popular-Un Nou Cicle per Guanyar,,134265,6.307
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Ciutadans-Partido de la Ciudadanía,,129889,6.101
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Partit Popular,pp,86266,4.052
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Partit Demòcrata Europeu Català,junts,53378,2.507
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Recortes Cero-Grup Verd-Municipalistes,,10981,0.516
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Moviment Primàries per la Independència de Catalunya,,4405,0.207
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Partit Comunista dels Treballadors de Catalunya,,3557,0.167
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Front Nacional de Catalunya,,3247,0.153
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Partit Nacionalista de Catalunya,,3147,0.148
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,08,Izquierda en Positivo,,1904,0.089
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Junts per Catalunya,junts,90052,32.667
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Esquerra Republicana de Catalunya,erc,60131,21.813
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,41845,15.179
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Canditatura d'Unitat Popular-Un Nou Cicle per Guanyar,,24892,9.030
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Vox,vox,16953,6.150
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,En Comú Podem-Podem en Comú,fa;podemos,11165,4.050
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Ciutadans-Partido de la Ciudadanía,,8976,3.256
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Partit Demòcrata Europeu Català,junts,8760,3.178
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Partit Popular,pp,5500,1.995
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Partit Nacionalista de Catalunya,,889,0.322
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Front Nacional de Catalunya,,882,0.320
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Moviment Primàries per la Independència de Catalunya,,672,0.244
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Unión Europea de Pensionistas,,635,0.230
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Recortes Cero-Grup Verd-Municipalistes,,619,0.225
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Per Un Món Més Just,,483,0.175
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Partit Comunista dels Treballadors de Catalunya,,363,0.132
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Alianza por el Comercio y la Vivienda,,173,0.063
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,17,Izquierda en Positivo,,110,0.040
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Junts per Catalunya,junts,45029,28.039
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Esquerra Republicana de Catalunya,erc,42670,26.570
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,24115,15.016
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Canditatura d'Unitat Popular-Un Nou Cicle per Guanyar,,11871,7.392
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Vox,vox,8876,5.527
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Partit Demòcrata Europeu Català,junts,7365,4.586
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Partit Popular,pp,5695,3.546
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,En Comú Podem-Podem en Comú,fa;podemos,5189,3.231
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Ciutadans-Partido de la Ciudadanía,,5175,3.222
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Escons en Blanc,,591,0.368
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Moviment Primàries per la Independència de Catalunya,,388,0.242
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Front Nacional de Catalunya,,388,0.242
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Recortes Cero-Grup Verd-Municipalistes,,356,0.222
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Per Un Món Més Just,,302,0.188
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Partit Nacionalista de Catalunya,,232,0.144
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Partit Comunista dels Treballadors de Catalunya,,214,0.133
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Suport Civil Català,,137,0.085
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,25,Izquierda en Positivo,,59,0.037
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Esquerra Republicana de Catalunya,erc,68095,24.479
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,55755,20.043
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Junts per Catalunya,junts,53917,19.382
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Vox,vox,26126,9.392
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Canditatura d'Unitat Popular-Un Nou Cicle per Guanyar,,18896,6.793
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Ciutadans-Partido de la Ciudadanía,,14566,5.236
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,En Comú Podem-Podem en Comú,fa;podemos,13687,4.920
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Partit Popular,pp,11992,4.311
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Partit Demòcrata Europeu Català,junts,7726,2.777
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Som Terres de l'Ebre,,1415,0.509
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Recortes Cero-Grup Verd-Municipalistes,,827,0.297
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Per Un Món Més Just,,554,0.199
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Moviment Primàries per la Independència de Catalunya,,552,0.198
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Front Nacional de Catalunya,,486,0.175
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Unidos por la Democracia + Jubilados,,429,0.154
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Partit Comunista dels Treballadors de Catalunya,,381,0.137
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Partit Nacionalista de Catalunya,,292,0.105
+aut-CT-2021-02-14,2021-02-14,autonomicas,CT,43,Moviment Corrent Roig,,94,0.034

@@ -1,0 +1,13 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,Regionalist Party of Cantabria (PRC),,122679,37.643
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,People's Party (PP),pp,78347,24.040
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,Spanish Socialist Workers' Party (PSOE),psoe,57383,17.607
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,Citizens–Party of the Citizenry (Cs),,25872,7.939
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,Vox (Vox),vox,16496,5.062
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,We Can (Podemos),podemos,10224,3.137
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,United Left+Equo (Cantabrian Tide) (IU+Equo (Marea Cántabra)),fa,6204,1.904
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,Animalist Party Against Mistreatment of Animals (PACMA),,1854,0.569
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,Cantabrists (Cantabristas),,1584,0.486
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,Cantabria Wave (OlaCantabria),,1119,0.343
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,Communist Party of the Workers of Spain (PCTE),,774,0.237
+aut-CB-2019-05-26,2019-05-26,autonomicas,CB,39,New People's Left (NIP),,187,0.057

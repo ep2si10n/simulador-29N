@@ -1,0 +1,470 @@
+[
+ {
+  "id": "01",
+  "name": "Araba/Álava",
+  "community": "País Vasco",
+  "seats": 4,
+  "census": 260214,
+  "expected_census": 171957,
+  "abstention": 0.3335
+ },
+ {
+  "id": "02",
+  "name": "Albacete",
+  "community": "Castilla-La Mancha",
+  "seats": 4,
+  "census": 307988,
+  "expected_census": 221016,
+  "abstention": 0.2735
+ },
+ {
+  "id": "03",
+  "name": "Alicante/Alacant",
+  "community": "Comunitat Valenciana",
+  "seats": 12,
+  "census": 1306311,
+  "expected_census": 899351,
+  "abstention": 0.3043
+ },
+ {
+  "id": "04",
+  "name": "Almería",
+  "community": "Andalucía",
+  "seats": 6,
+  "census": 516114,
+  "expected_census": 321441,
+  "abstention": 0.3712
+ },
+ {
+  "id": "05",
+  "name": "Ávila",
+  "community": "Castilla y León",
+  "seats": 3,
+  "census": 136669,
+  "expected_census": 97366,
+  "abstention": 0.2784
+ },
+ {
+  "id": "06",
+  "name": "Badajoz",
+  "community": "Extremadura",
+  "seats": 5,
+  "census": 550702,
+  "expected_census": 386900,
+  "abstention": 0.2853
+ },
+ {
+  "id": "07",
+  "name": "Illes Balears",
+  "community": "Illes Balears",
+  "seats": 8,
+  "census": 828755,
+  "expected_census": 498742,
+  "abstention": 0.3922
+ },
+ {
+  "id": "08",
+  "name": "Barcelona",
+  "community": "Cataluña",
+  "seats": 32,
+  "census": 4243500,
+  "expected_census": 2854651,
+  "abstention": 0.3231
+ },
+ {
+  "id": "09",
+  "name": "Burgos",
+  "community": "Castilla y León",
+  "seats": 4,
+  "census": 296401,
+  "expected_census": 203939,
+  "abstention": 0.3033
+ },
+ {
+  "id": "10",
+  "name": "Cáceres",
+  "community": "Extremadura",
+  "seats": 4,
+  "census": 339491,
+  "expected_census": 232869,
+  "abstention": 0.302
+ },
+ {
+  "id": "11",
+  "name": "Cádiz",
+  "community": "Andalucía",
+  "seats": 8,
+  "census": 1017958,
+  "expected_census": 642166,
+  "abstention": 0.3613
+ },
+ {
+  "id": "12",
+  "name": "Castellón/Castelló",
+  "community": "Comunitat Valenciana",
+  "seats": 5,
+  "census": 430830,
+  "expected_census": 308763,
+  "abstention": 0.2751
+ },
+ {
+  "id": "13",
+  "name": "Ciudad Real",
+  "community": "Castilla-La Mancha",
+  "seats": 5,
+  "census": 391495,
+  "expected_census": 279232,
+  "abstention": 0.2767
+ },
+ {
+  "id": "14",
+  "name": "Córdoba",
+  "community": "Andalucía",
+  "seats": 6,
+  "census": 645288,
+  "expected_census": 451218,
+  "abstention": 0.2898
+ },
+ {
+  "id": "15",
+  "name": "A Coruña",
+  "community": "Galicia",
+  "seats": 8,
+  "census": 1085673,
+  "expected_census": 657729,
+  "abstention": 0.388
+ },
+ {
+  "id": "16",
+  "name": "Cuenca",
+  "community": "Castilla-La Mancha",
+  "seats": 3,
+  "census": 152694,
+  "expected_census": 112818,
+  "abstention": 0.2515
+ },
+ {
+  "id": "17",
+  "name": "Girona",
+  "community": "Cataluña",
+  "seats": 6,
+  "census": 546370,
+  "expected_census": 352446,
+  "abstention": 0.3491
+ },
+ {
+  "id": "18",
+  "name": "Granada",
+  "community": "Andalucía",
+  "seats": 7,
+  "census": 765478,
+  "expected_census": 504771,
+  "abstention": 0.331
+ },
+ {
+  "id": "19",
+  "name": "Guadalajara",
+  "community": "Castilla-La Mancha",
+  "seats": 3,
+  "census": 196983,
+  "expected_census": 142281,
+  "abstention": 0.2684
+ },
+ {
+  "id": "20",
+  "name": "Gipuzkoa",
+  "community": "País Vasco",
+  "seats": 6,
+  "census": 585873,
+  "expected_census": 386174,
+  "abstention": 0.3371
+ },
+ {
+  "id": "21",
+  "name": "Huelva",
+  "community": "Andalucía",
+  "seats": 5,
+  "census": 402504,
+  "expected_census": 257831,
+  "abstention": 0.3487
+ },
+ {
+  "id": "22",
+  "name": "Huesca",
+  "community": "Aragón",
+  "seats": 3,
+  "census": 173391,
+  "expected_census": 119330,
+  "abstention": 0.3045
+ },
+ {
+  "id": "23",
+  "name": "Jaén",
+  "community": "Andalucía",
+  "seats": 5,
+  "census": 518371,
+  "expected_census": 368303,
+  "abstention": 0.2794
+ },
+ {
+  "id": "24",
+  "name": "León",
+  "community": "Castilla y León",
+  "seats": 4,
+  "census": 422917,
+  "expected_census": 271640,
+  "abstention": 0.3507
+ },
+ {
+  "id": "25",
+  "name": "Lleida",
+  "community": "Cataluña",
+  "seats": 4,
+  "census": 317225,
+  "expected_census": 200544,
+  "abstention": 0.3619
+ },
+ {
+  "id": "26",
+  "name": "La Rioja",
+  "community": "La Rioja",
+  "seats": 4,
+  "census": 252091,
+  "expected_census": 173675,
+  "abstention": 0.3014
+ },
+ {
+  "id": "27",
+  "name": "Lugo",
+  "community": "Galicia",
+  "seats": 4,
+  "census": 337755,
+  "expected_census": 191432,
+  "abstention": 0.4253
+ },
+ {
+  "id": "28",
+  "name": "Madrid",
+  "community": "Comunidad de Madrid",
+  "seats": 38,
+  "census": 5224561,
+  "expected_census": 3683781,
+  "abstention": 0.289
+ },
+ {
+  "id": "29",
+  "name": "Málaga",
+  "community": "Andalucía",
+  "seats": 11,
+  "census": 1239846,
+  "expected_census": 799130,
+  "abstention": 0.3472
+ },
+ {
+  "id": "30",
+  "name": "Murcia",
+  "community": "Región de Murcia",
+  "seats": 10,
+  "census": 1099703,
+  "expected_census": 756010,
+  "abstention": 0.3055
+ },
+ {
+  "id": "31",
+  "name": "Navarra",
+  "community": "Navarra",
+  "seats": 5,
+  "census": 519918,
+  "expected_census": 347475,
+  "abstention": 0.3253
+ },
+ {
+  "id": "32",
+  "name": "Ourense",
+  "community": "Galicia",
+  "seats": 4,
+  "census": 355765,
+  "expected_census": 181856,
+  "abstention": 0.4832
+ },
+ {
+  "id": "33",
+  "name": "Asturias",
+  "community": "Asturias",
+  "seats": 7,
+  "census": 959023,
+  "expected_census": 587442,
+  "abstention": 0.3811
+ },
+ {
+  "id": "34",
+  "name": "Palencia",
+  "community": "Castilla y León",
+  "seats": 3,
+  "census": 137642,
+  "expected_census": 97069,
+  "abstention": 0.2861
+ },
+ {
+  "id": "35",
+  "name": "Las Palmas",
+  "community": "Canarias",
+  "seats": 8,
+  "census": 898882,
+  "expected_census": 527234,
+  "abstention": 0.4068
+ },
+ {
+  "id": "36",
+  "name": "Pontevedra",
+  "community": "Galicia",
+  "seats": 7,
+  "census": 909434,
+  "expected_census": 559833,
+  "abstention": 0.3769
+ },
+ {
+  "id": "37",
+  "name": "Salamanca",
+  "community": "Castilla y León",
+  "seats": 4,
+  "census": 300506,
+  "expected_census": 198505,
+  "abstention": 0.3315
+ },
+ {
+  "id": "38",
+  "name": "Santa Cruz de Tenerife",
+  "community": "Canarias",
+  "seats": 7,
+  "census": 881217,
+  "expected_census": 497354,
+  "abstention": 0.4291
+ },
+ {
+  "id": "39",
+  "name": "Cantabria",
+  "community": "Cantabria",
+  "seats": 5,
+  "census": 507818,
+  "expected_census": 347142,
+  "abstention": 0.3083
+ },
+ {
+  "id": "40",
+  "name": "Segovia",
+  "community": "Castilla y León",
+  "seats": 3,
+  "census": 119454,
+  "expected_census": 88287,
+  "abstention": 0.2493
+ },
+ {
+  "id": "41",
+  "name": "Sevilla",
+  "community": "Andalucía",
+  "seats": 12,
+  "census": 1564082,
+  "expected_census": 1076466,
+  "abstention": 0.3012
+ },
+ {
+  "id": "42",
+  "name": "Soria",
+  "community": "Castilla y León",
+  "seats": 2,
+  "census": 75768,
+  "expected_census": 49383,
+  "abstention": 0.3403
+ },
+ {
+  "id": "43",
+  "name": "Tarragona",
+  "community": "Cataluña",
+  "seats": 6,
+  "census": 596689,
+  "expected_census": 391306,
+  "abstention": 0.3382
+ },
+ {
+  "id": "44",
+  "name": "Teruel",
+  "community": "Aragón",
+  "seats": 3,
+  "census": 106352,
+  "expected_census": 75381,
+  "abstention": 0.2842
+ },
+ {
+  "id": "45",
+  "name": "Toledo",
+  "community": "Castilla-La Mancha",
+  "seats": 6,
+  "census": 542567,
+  "expected_census": 388273,
+  "abstention": 0.2738
+ },
+ {
+  "id": "46",
+  "name": "Valencia/València",
+  "community": "Comunitat Valenciana",
+  "seats": 16,
+  "census": 1999340,
+  "expected_census": 1438291,
+  "abstention": 0.2737
+ },
+ {
+  "id": "47",
+  "name": "Valladolid",
+  "community": "Castilla y León",
+  "seats": 5,
+  "census": 431381,
+  "expected_census": 318442,
+  "abstention": 0.2543
+ },
+ {
+  "id": "48",
+  "name": "Bizkaia",
+  "community": "País Vasco",
+  "seats": 8,
+  "census": 942983,
+  "expected_census": 629080,
+  "abstention": 0.3279
+ },
+ {
+  "id": "49",
+  "name": "Zamora",
+  "community": "Castilla y León",
+  "seats": 3,
+  "census": 162998,
+  "expected_census": 102023,
+  "abstention": 0.3655
+ },
+ {
+  "id": "50",
+  "name": "Zaragoza",
+  "community": "Aragón",
+  "seats": 7,
+  "census": 740060,
+  "expected_census": 524595,
+  "abstention": 0.2847
+ },
+ {
+  "id": "51",
+  "name": "Ceuta",
+  "community": "Ceuta",
+  "seats": 1,
+  "census": 63310,
+  "expected_census": 34494,
+  "abstention": 0.4492
+ },
+ {
+  "id": "52",
+  "name": "Melilla",
+  "community": "Melilla",
+  "seats": 1,
+  "census": 61118,
+  "expected_census": 30173,
+  "abstention": 0.5016
+ }
+]

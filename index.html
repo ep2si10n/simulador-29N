@@ -1,0 +1,196 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Simulador 29N</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="https://cdn.jsdelivr.net/npm/d3@7.9.0/dist/d3.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/d3-composite-projections@1.5.0/d3-composite-projections.min.js"></script>
+  <script type="module" src="js/app.js"></script>
+</head>
+<body>
+  <header class="top">
+    <h1>Simulador 29N 2026</h1>
+    <nav class="tabs" role="tablist" aria-label="Cámara">
+      <button type="button" role="tab" id="tab-congreso" data-chamber="congreso" aria-selected="true" title="Tecla 1 · Esc cierra la provincia">Congreso</button>
+      <button type="button" role="tab" id="tab-senado" data-chamber="senado" aria-selected="false" title="Tecla 2">Senado</button>
+      <button type="button" role="tab" id="tab-escenarios" data-view="escenarios" aria-selected="false" title="Tecla 3">Escenarios</button>
+    </nav>
+    <span id="placeholder-badge" class="badge" hidden title="Algunos ficheros de data/ son provisionales">Datos provisionales</span>
+    <div class="top-actions">
+      <button id="undo-btn" type="button" class="ghost" disabled aria-label="Deshacer (Ctrl+Z)" title="Deshacer (Ctrl+Z)">Deshacer</button>
+      <button id="redo-btn" type="button" class="ghost" disabled aria-label="Rehacer (Ctrl+Shift+Z o Ctrl+Y)" title="Rehacer (Ctrl+Shift+Z o Ctrl+Y)">Rehacer</button>
+      <button id="update-polls" type="button" class="ghost" title="Descarga las últimas encuestas publicadas (requiere python server.py)">Actualizar encuestas</button>
+      <span id="poll-status" class="hint" role="status"></span>
+      <button id="share-btn" type="button" class="ghost" title="Copia un enlace con tu escenario">Copiar enlace</button>
+      <button id="reset-all" type="button" class="ghost" title="Vuelve a las encuestas y borra coaliciones y pacto">Restablecer todo</button>
+      <button id="csv-btn" type="button" class="ghost" title="Descarga escaños por provincia y candidatura (Congreso y Senado)">Descargar CSV</button>
+      <button id="theme-btn" type="button" class="ghost">Modo oscuro</button>
+      <a id="lab-link" class="btn-link" href="lab.html" target="_blank" rel="noopener" title="Evolución del modelo de encuestas, epoch a epoch">Laboratorio</a>
+      <button id="method-btn" type="button">Metodología</button>
+    </div>
+  </header>
+
+  <main>
+    <div class="col">
+      <section id="map-panel" class="panel" aria-label="Mapa">
+        <div class="panel-head">
+          <h2>Mapa</h2>
+          <div class="prov-picker">
+            <label>Colorear
+              <select id="map-mode"><option value="ganador">Ganador</option></select>
+            </label>
+            <label>Provincia
+              <select id="prov-select"><option value="">—</option></select>
+            </label>
+          </div>
+        </div>
+        <svg id="map" role="img" aria-label="Mapa de provincias coloreado por ganador"></svg>
+        <div id="map-legend" class="map-legend"></div>
+      </section>
+
+      <section id="hemi-panel" class="panel" aria-label="Hemiciclo">
+        <div class="panel-head">
+          <h2 id="hemi-title">Congreso</h2>
+          <span id="hemi-sub" class="muted"></span>
+        </div>
+        <div class="hemi-body">
+          <div class="hemi-wrap"><svg id="hemicycle" role="img" aria-label="Hemiciclo"></svg></div>
+          <div id="legend" class="legend"></div>
+        </div>
+        <div id="blocs" class="blocs"></div>
+        <div id="sen-polls" class="sen-polls" hidden></div>
+        <div id="pact" class="pact"></div>
+        <div id="solver" class="solver" hidden>
+          <div class="solver-row">
+            <select id="solve-goal" aria-label="Objetivo">
+              <option value="pacto">Mayoría absoluta del pacto actual</option>
+              <option value="partido">Que un partido llegue a N escaños</option>
+            </select>
+            <select id="solve-party" aria-label="Partido"></select>
+            <input id="solve-n" type="number" min="1" max="350" placeholder="escaños" aria-label="Escaños objetivo">
+            <button id="solve-btn" type="button" class="primary">Calcular</button>
+          </div>
+          <p id="solve-hint" class="hint"></p>
+          <div id="solve-out" aria-live="polite"></div>
+        </div>
+        <div id="mc" class="mc">
+          <button id="mc-btn" type="button">Incertidumbre: Congreso y Senado (1000 simulaciones)</button>
+          <label class="hint">Error de las encuestas
+            <select id="mc-mode">
+              <option value="final">Recta final de campaña</option>
+              <option value="now">A la distancia de hoy</option>
+            </select>
+          </label>
+          <div id="mc-out" aria-live="polite"></div>
+        </div>
+        <div id="prob" class="prob">
+          <h3>Probabilidad de un escenario</h3>
+          <p class="hint">Define condiciones (provinciales o nacionales, en una cámara) y el Montecarlo calcula la probabilidad de que se cumplan todas a la vez. Una coalición cuenta bajo su anfitrión: incluye a todos sus miembros.</p>
+          <div class="prob-row">
+            <label>Ámbito <select id="pr-scope"><option value="nacional">Nacional</option></select></label>
+            <label>Cámara <select id="pr-chamber"><option value="congreso">Congreso</option><option value="senado">Senado</option></select></label>
+            <label>Escaños <select id="pr-op"><option value=">=">al menos</option><option value="=">exactamente</option><option value="<=">como mucho</option></select></label>
+            <input id="pr-n" type="number" min="0" max="350" value="1" aria-label="Número de escaños">
+          </div>
+          <div id="pr-parties" class="chips" role="group" aria-label="Partidos que suman"></div>
+          <div class="prob-row">
+            <button id="pr-add" type="button">Añadir condición</button>
+            <button id="pr-calc" type="button" class="primary">Calcular probabilidad</button>
+            <button id="pr-clear" type="button" class="ghost">Borrar condiciones</button>
+          </div>
+          <div id="pr-out" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="scen-panel" class="panel" aria-label="Escenarios" hidden>
+        <div class="panel-head">
+          <h2>Escenarios guardados</h2>
+          <span id="scen-loaded"></span>
+          <button id="scen-update" type="button" class="primary" hidden>Actualizar</button>
+        </div>
+        <p class="hint">Se guardan en este navegador. El escenario de trabajo se guarda solo y sigue igual al recargar.</p>
+        <div class="scen-actions">
+          <button id="scen-save" type="button" class="primary">Guardar escenario actual</button>
+          <button id="scen-new" type="button">Nuevo desde encuestas</button>
+          <button id="scen-clear" type="button" class="danger">Borrar todos</button>
+        </div>
+        <div id="scen-now" class="scen-now"></div>
+        <div class="scen-actions">
+          <button id="cmp-btn" type="button">Comparar A y B</button>
+          <span class="muted">Marca A y B en «Actual» o en un escenario guardado.</span>
+        </div>
+        <div id="scen-cmp" class="scen-cmp"></div>
+        <div class="scen-actions">
+          <button id="odds-btn" type="button" class="primary">Calcular horquillas</button>
+          <span id="odds-prog" class="muted" aria-live="polite"></span>
+        </div>
+        <p class="hint">1000 simulaciones por escenario (misma semilla, así se puede comparar). Clic en una fila carga ese escenario.</p>
+        <div id="scen-odds" class="odds-wrap"></div>
+        <div id="scen-list" class="scen-list"></div>
+      </section>
+    </div>
+
+    <div class="col">
+      <section id="national" class="panel" aria-label="Panel nacional">
+        <div id="nat-coalitions" class="coalitions strip"></div>
+        <div class="toolbar">
+          <label class="switch"><input type="checkbox" id="balance" checked> Autoequilibrar</label>
+          <label>Restar de: <select id="source"><option value="prop">Proporcional</option></select></label>
+          <label>Partir de: <select id="preset"></select></label>
+          <label class="turnout">Participación <input id="turnout" inputmode="decimal" autocomplete="off" size="4"> % <button id="turnout-reset" type="button" class="ghost" aria-label="Volver a la participación prevista">↺</button></label>
+          <button id="reset" type="button">Restablecer encuestas</button>
+          <span id="total" class="total"></span>
+        </div>
+        <p id="ov-note" class="hint" hidden></p>
+        <div class="cards-wrap">
+          <div id="cards"></div>
+        </div>
+      </section>
+
+      <section id="province" class="panel" aria-label="Provincia seleccionada"><div id="province-body"></div></section>
+
+      <section id="filo-panel" class="panel filo" aria-label="Provincias en el filo">
+        <details>
+          <summary><b>Provincias en el filo</b> <span class="muted">· las 10 donde el último escaño se decide por menos votos</span></summary>
+          <ol id="filo-list"></ol>
+        </details>
+      </section>
+    </div>
+  </main>
+
+  <div id="tooltip" class="tooltip" hidden></div>
+  <div id="flash" role="status" aria-live="polite"></div>
+
+  <dialog id="alliance-modal">
+    <form method="dialog">
+      <h2 id="am-title"></h2>
+      <p id="am-scope" class="muted"></p>
+      <p class="muted">Por cada partido: % de sus votantes que va a la coalición, % que va a otros partidos de fuera y el resto se abstiene.</p>
+      <label>Aplicar en:
+        <select id="am-chamber">
+          <option value="congreso">Congreso</option>
+          <option value="senado">Senado</option>
+          <option value="ambos">Ambos</option>
+        </select>
+      </label>
+      <div id="am-members"></div>
+      <p id="am-error" class="error"></p>
+      <menu>
+        <button value="ok" id="am-ok" class="primary">Confirmar</button>
+        <button value="cancel" formnovalidate>Cancelar</button>
+        <button value="dissolve" id="am-dissolve" class="danger">Disolver</button>
+      </menu>
+    </form>
+  </dialog>
+
+  <dialog id="method-modal">
+    <form method="dialog">
+      <div id="method-body"></div>
+      <menu><button value="close">Cerrar</button></menu>
+    </form>
+  </dialog>
+</body>
+</html>

@@ -1,0 +1,12 @@
+# entorno local
+.venv/
+__pycache__/
+*.pyc
+.claude/
+.env
+.env.*
+
+# cachés de scraping (se regeneran)
+raw/sources/
+raw/polls/accuracy_report.txt
+*.log

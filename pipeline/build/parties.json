@@ -1,0 +1,368 @@
+[
+ {
+  "party_id": "podemos",
+  "name": "Podemos",
+  "full_name": "Podemos",
+  "color": "#6A2C70",
+  "scope": "national",
+  "provinces": null,
+  "order": 1
+ },
+ {
+  "party_id": "aa",
+  "name": "Adelante Andalucía",
+  "full_name": "Adelante Andalucía",
+  "color": "#2E9E6B",
+  "scope": "regional",
+  "provinces": [
+   "04",
+   "11",
+   "14",
+   "18",
+   "21",
+   "23",
+   "29",
+   "41"
+  ],
+  "order": 2
+ },
+ {
+  "party_id": "fa",
+  "name": "Frente Amplio",
+  "full_name": "Frente Amplio (antes Sumar)",
+  "color": "#D81B60",
+  "scope": "national",
+  "provinces": null,
+  "order": 3
+ },
+ {
+  "party_id": "fv",
+  "name": "Front Valencià",
+  "full_name": "Compromís–Front Valencià",
+  "color": "#EF7D1A",
+  "scope": "regional",
+  "provinces": [
+   "03",
+   "12",
+   "46"
+  ],
+  "order": 4
+ },
+ {
+  "party_id": "bildu",
+  "name": "EH Bildu",
+  "full_name": "Euskal Herria Bildu",
+  "color": "#A8C81E",
+  "scope": "regional",
+  "provinces": [
+   "01",
+   "20",
+   "48",
+   "31"
+  ],
+  "order": 5
+ },
+ {
+  "party_id": "bng",
+  "name": "BNG",
+  "full_name": "Bloque Nacionalista Galego",
+  "color": "#7FB8E6",
+  "scope": "regional",
+  "provinces": [
+   "15",
+   "27",
+   "32",
+   "36"
+  ],
+  "order": 6
+ },
+ {
+  "party_id": "erc",
+  "name": "ERC",
+  "full_name": "Esquerra Republicana de Catalunya",
+  "color": "#F2B100",
+  "scope": "regional",
+  "provinces": [
+   "08",
+   "17",
+   "25",
+   "43"
+  ],
+  "order": 7
+ },
+ {
+  "party_id": "psoe",
+  "name": "PSOE",
+  "full_name": "Partido Socialista Obrero Español",
+  "color": "#E30613",
+  "scope": "national",
+  "provinces": null,
+  "order": 8
+ },
+ {
+  "party_id": "pnv",
+  "name": "PNV",
+  "full_name": "Partido Nacionalista Vasco (EAJ-PNV)",
+  "color": "#1E7B3C",
+  "scope": "regional",
+  "provinces": [
+   "01",
+   "20",
+   "48"
+  ],
+  "order": 9
+ },
+ {
+  "party_id": "junts",
+  "name": "Junts",
+  "full_name": "Junts per Catalunya",
+  "color": "#00B5A5",
+  "scope": "regional",
+  "provinces": [
+   "08",
+   "17",
+   "25",
+   "43"
+  ],
+  "order": 10
+ },
+ {
+  "party_id": "cc",
+  "name": "CC",
+  "full_name": "Coalición Canaria",
+  "color": "#FFE135",
+  "scope": "regional",
+  "provinces": [
+   "35",
+   "38"
+  ],
+  "order": 11
+ },
+ {
+  "party_id": "upn",
+  "name": "UPN",
+  "full_name": "Unión del Pueblo Navarro",
+  "color": "#3F51B5",
+  "scope": "regional",
+  "provinces": [
+   "31"
+  ],
+  "order": 12
+ },
+ {
+  "party_id": "pp",
+  "name": "PP",
+  "full_name": "Partido Popular",
+  "color": "#1D84CE",
+  "scope": "national",
+  "provinces": null,
+  "order": 13
+ },
+ {
+  "party_id": "vox",
+  "name": "Vox",
+  "full_name": "Vox",
+  "color": "#5AC035",
+  "scope": "national",
+  "provinces": null,
+  "order": 14
+ },
+ {
+  "party_id": "ac",
+  "name": "Aliança Catalana",
+  "full_name": "Aliança Catalana",
+  "color": "#0D2C54",
+  "scope": "regional",
+  "provinces": [
+   "08",
+   "17",
+   "25",
+   "43"
+  ],
+  "order": 15
+ },
+ {
+  "party_id": "salf",
+  "name": "SALF",
+  "full_name": "Se Acabó La Fiesta",
+  "color": "#8D6E63",
+  "scope": "national",
+  "provinces": null,
+  "order": 16
+ },
+ {
+  "party_id": "cup",
+  "name": "CUP",
+  "full_name": "Candidatura d'Unitat Popular",
+  "color": "#FFED00",
+  "scope": "regional",
+  "provinces": [
+   "08",
+   "17",
+   "25",
+   "43"
+  ],
+  "order": 0.5,
+  "input": "ambito",
+  "aliases": "CUP|UNITAT POPULAR"
+ },
+ {
+  "party_id": "gbai",
+  "name": "Geroa Bai",
+  "full_name": "Geroa Bai",
+  "color": "#D4145A",
+  "scope": "regional",
+  "provinces": [
+   "31"
+  ],
+  "order": 8.4,
+  "input": "ambito",
+  "aliases": "GBAI|GEROA|Yes to the Future"
+ },
+ {
+  "party_id": "nc",
+  "name": "NC",
+  "full_name": "Nueva Canarias",
+  "color": "#8DC63F",
+  "scope": "regional",
+  "provinces": [
+   "35"
+  ],
+  "order": 8.6,
+  "input": "ambito",
+  "aliases": "NUEVA CANARIAS|^NC\\b|^NCa$|^NC-"
+ },
+ {
+  "party_id": "prc",
+  "name": "PRC",
+  "full_name": "Partido Regionalista de Cantabria",
+  "color": "#7BB241",
+  "scope": "regional",
+  "provinces": [
+   "39"
+  ],
+  "order": 11.3,
+  "input": "ambito",
+  "aliases": "PRC|REGIONALISTA DE CANTABRIA|Regionalist Party of Cantabria"
+ },
+ {
+  "party_id": "do",
+  "name": "DO",
+  "full_name": "Democracia Ourensana",
+  "color": "#2B3990",
+  "scope": "regional",
+  "provinces": [
+   "32"
+  ],
+  "order": 11.4,
+  "input": "ambito",
+  "aliases": "^DO$|DEMOCRACIA OURENSANA"
+ },
+ {
+  "party_id": "upl",
+  "name": "UPL",
+  "full_name": "Unión del Pueblo Leonés",
+  "color": "#B5121B",
+  "scope": "regional",
+  "provinces": [
+   "24",
+   "49"
+  ],
+  "order": 11.5,
+  "input": "ambito",
+  "aliases": "U\\.?P\\.?L\\.?$|PUEBLO LEON"
+ },
+ {
+  "party_id": "te",
+  "name": "Teruel Existe",
+  "full_name": "¡Teruel Existe!",
+  "color": "#1B7A3E",
+  "scope": "regional",
+  "provinces": [
+   "44"
+  ],
+  "order": 11.6,
+  "input": "ambito",
+  "aliases": "TERUEL EXI|EXISTE"
+ },
+ {
+  "party_id": "sy",
+  "name": "Soria ¡Ya!",
+  "full_name": "Soria ¡Ya!",
+  "color": "#2E7D32",
+  "scope": "regional",
+  "provinces": [
+   "42"
+  ],
+  "order": 11.7,
+  "input": "ambito",
+  "aliases": "^SY$|SORIA"
+ },
+ {
+  "party_id": "xav",
+  "name": "Por Ávila",
+  "full_name": "Por Ávila (XAV)",
+  "color": "#00A3E0",
+  "scope": "regional",
+  "provinces": [
+   "05"
+  ],
+  "order": 11.8,
+  "input": "ambito",
+  "aliases": "^XAV$|POR [ÁA]VILA"
+ },
+ {
+  "party_id": "par",
+  "name": "PAR",
+  "full_name": "Partido Aragonés",
+  "color": "#F7B500",
+  "scope": "regional",
+  "provinces": [
+   "22",
+   "44",
+   "50"
+  ],
+  "order": 12.4,
+  "input": "ambito",
+  "aliases": "PARTIDO ARAGON|^PAR$"
+ },
+ {
+  "party_id": "elpi",
+  "name": "El Pi",
+  "full_name": "El Pi–Proposta per les Illes",
+  "color": "#6D2077",
+  "scope": "regional",
+  "provinces": [
+   "07"
+  ],
+  "order": 12.5,
+  "input": "ambito",
+  "aliases": "EL PI"
+ },
+ {
+  "party_id": "jmm",
+  "name": "Jaén Merece Más",
+  "full_name": "Jaén Merece Más",
+  "color": "#3A9D23",
+  "scope": "regional",
+  "provinces": [
+   "23"
+  ],
+  "order": 11.9,
+  "input": "ambito",
+  "aliases": "JA[ÉE]N MERECE"
+ },
+ {
+  "party_id": "cpm",
+  "name": "CpM",
+  "full_name": "Coalición por Melilla",
+  "color": "#00843D",
+  "scope": "regional",
+  "provinces": [
+   "52"
+  ],
+  "order": 12.6,
+  "input": "ambito",
+  "aliases": "^CpM$|COALICI[OÓ]N POR MELILLA"
+ }
+]

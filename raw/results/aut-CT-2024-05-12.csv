@@ -1,0 +1,65 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,707234,29.883
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Junts + Carles Puigdemont per Catalunya-Junts+,junts,457744,19.341
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Esquerra Republicana de Catalunya,erc,316212,13.361
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Partit Popular,pp,274054,11.580
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Vox,vox,188828,7.979
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Comuns Sumar,fa,158343,6.690
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Candidatura d'Unitat Popular - Defensem la Terra,,94123,3.977
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Aliança Catalana,ac,67896,2.869
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Partit Animalista amb el Medi Ambient,,28067,1.186
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Ciutadans-Partido de la Ciudadanía,,19633,0.830
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Alhora,,10627,0.449
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Frente Obrero,,8218,0.347
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Partit Comunista dels Treballadors de Catalunya,,3267,0.138
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Recortes Cero,,2835,0.120
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Per Un Món Més Just,,2049,0.087
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,08,Izquierda por España,,1706,0.072
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Junts + Carles Puigdemont per Catalunya-Junts+,junts,104664,34.804
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,58906,19.588
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Esquerra Republicana de Catalunya,erc,36063,11.992
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Aliança Catalana,ac,26989,8.975
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Partit Popular,pp,19723,6.559
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Vox,vox,19118,6.357
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Candidatura d'Unitat Popular - Defensem la Terra,,14846,4.937
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Comuns Sumar,fa,9920,3.299
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Partit Animalista amb el Medi Ambient,,3038,1.010
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Alhora,,1565,0.520
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Ciutadans-Partido de la Ciudadanía,,1014,0.337
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Frente Obrero,,564,0.188
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Partit Comunista dels Treballadors de Catalunya,,334,0.111
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Per Un Món Més Just,,227,0.075
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,17,Recortes Cero,,193,0.064
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Junts + Carles Puigdemont per Catalunya-Junts+,junts,51125,30.343
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,34748,20.623
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Esquerra Republicana de Catalunya,erc,27523,16.335
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Partit Popular,pp,15472,9.183
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Aliança Catalana,ac,13058,7.750
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Vox,vox,10508,6.237
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Candidatura d'Unitat Popular - Defensem la Terra,,7148,4.242
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Comuns Sumar,fa,3653,2.168
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Alhora,,830,0.493
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Ciutadans-Partido de la Ciudadanía,,553,0.328
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Frente Obrero,,365,0.217
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Per Un Món Més Just,,250,0.148
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Partit Comunista dels Treballadors de Catalunya,,209,0.124
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Recortes Cero,,202,0.120
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,25,Front Nacional de Catalunya,,110,0.065
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Partit dels Socialistes de Catalunya (PSC-PSOE),psoe,81701,25.488
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Junts + Carles Puigdemont per Catalunya-Junts+,junts,67937,21.194
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Esquerra Republicana de Catalunya,erc,51330,16.013
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Partit Popular,pp,37921,11.830
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Vox,vox,32642,10.183
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Candidatura d'Unitat Popular - Defensem la Terra,,12942,4.037
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Comuns Sumar,fa,12381,3.862
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Aliança Catalana,ac,11206,3.496
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Partit Animalista amb el Medi Ambient,,3388,1.057
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Ciutadans-Partido de la Ciudadanía,,1747,0.545
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Alhora,,1082,0.338
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Frente Obrero,,971,0.303
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Partit Comunista dels Treballadors de Catalunya,,402,0.125
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Convergents,,263,0.082
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Recortes Cero,,257,0.080
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Per Un Món Més Just,,234,0.073
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Izquierda por España,,186,0.058
+aut-CT-2024-05-12,2024-05-12,autonomicas,CT,43,Front Nacional de Catalunya,,159,0.050

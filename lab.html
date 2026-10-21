@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Laboratorio del modelo</title>
+  <style>
+    :root { --bg: #f2f4f8; --panel: #fff; --ink: #1b2330; --muted: #556073; --line: #dfe4ec; --accent: #2563b0; --good: #2e8b57; --bad: #b71c1c; --hold: #c26a00; color-scheme: light; font: 14px system-ui, "Segoe UI", sans-serif; color: var(--ink); }
+    @media (prefers-color-scheme: dark) { :root { --bg: #0e131d; --panel: #161d2b; --ink: #e5eaf2; --muted: #9aa5b7; --line: #2a3446; --accent: #82b4ea; --good: #6fcf97; --bad: #ff7b72; --hold: #f0a040; color-scheme: dark; } }
+    body { margin: 0; background: var(--bg); }
+    header { display: flex; flex-wrap: wrap; gap: 8px 16px; align-items: baseline; padding: 12px 16px; background: var(--panel); border-bottom: 1px solid var(--line); }
+    h1 { font-size: 17px; margin: 0; }
+    main { max-width: 1200px; margin: 0 auto; padding: 12px 16px; display: grid; gap: 12px; }
+    .panel { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px 14px; }
+    .muted { color: var(--muted); }
+    .kpis { display: flex; flex-wrap: wrap; gap: 10px; }
+    .kpi { flex: 1 1 160px; border: 1px solid var(--line); border-radius: 8px; padding: 8px 12px; }
+    .kpi b { display: block; font-size: 22px; font-variant-numeric: tabular-nums; }
+    .badge { border-radius: 999px; padding: 1px 10px; font-size: 12px; border: 1px solid var(--line); }
+    .run { color: var(--accent); border-color: var(--accent); }
+    .done { color: var(--good); border-color: var(--good); }
+    svg { width: 100%; height: 260px; display: block; }
+    .axis { stroke: var(--line); }
+    .lbl { fill: var(--muted); font-size: 11px; }
+    table { border-collapse: collapse; width: 100%; font-variant-numeric: tabular-nums; }
+    th, td { padding: 4px 8px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+    th { color: var(--muted); font-weight: 500; font-size: 12px; }
+    td:first-child, th:first-child { text-align: left; white-space: normal; }
+    tr.win td { font-weight: 650; }
+    details { border-top: 1px solid var(--line); padding: 6px 0; }
+    summary { cursor: pointer; }
+    .up { color: var(--bad); } .down { color: var(--good); }
+  </style>
+</head>
+<body>
+  <header><h1>Laboratorio del modelo de encuestas</h1><span id="status" class="badge"></span><span id="updated" class="muted"></span></header>
+  <main>
+    <section class="panel"><div class="kpis" id="kpis"></div><p class="muted" id="metric"></p></section>
+    <section class="panel"><h2 style="font-size:15px;margin:0 0 6px">Error por epoch (menos es mejor)</h2><svg id="chart" role="img" aria-label="Error por epoch"></svg>
+      <p class="muted">Línea azul: mejor receta adoptada (validación cruzada 5×3). Círculos verdes: ganador de cada epoch en validación temporal. Rombos naranjas: ganador en la prueba final (elecciones apartadas).</p></section>
+    <section class="panel"><h2 style="font-size:15px;margin:0 0 6px">Ranking de algoritmos</h2><div id="families"></div></section>
+    <section class="panel" id="turnout"></section>
+    <section class="panel" id="epochs"></section>
+  </main>
+  <script>
+    const f = (x, d = 3) => (x == null ? '—' : x.toFixed(d).replace('.', ','));
+    const esc = (s) => String(s).replace(/[&<>"]/g, (c) => `&#${c.charCodeAt(0)};`);
+    function chart(eps, naive) {
+      const done = eps.filter((e) => e.status === 'hecho');
+      const svg = document.getElementById('chart');
+      const W = svg.clientWidth || 800, Hh = 260, pad = { l: 46, r: 12, t: 12, b: 28 };
+      const ys = done.flatMap((e) => [e.best_mae, e.rolling?.mae, e.hold?.mae]).concat(naive ?? []).filter((v) => v != null);
+      if (!ys.length) { svg.innerHTML = ''; return; }
+      const lo = Math.min(...ys) * 0.97, hi = Math.max(...ys) * 1.03;
+      const x = (i) => pad.l + (eps.length > 1 ? (i * (W - pad.l - pad.r)) / (eps.length - 1) : (W - pad.l - pad.r) / 2);
+      const y = (v) => pad.t + ((hi - v) * (Hh - pad.t - pad.b)) / (hi - lo);
+      let s = `<line class="axis" x1="${pad.l}" x2="${W - pad.r}" y1="${Hh - pad.b}" y2="${Hh - pad.b}"/>`;
+      for (let k = 0; k <= 4; k++) { const v = lo + ((hi - lo) * k) / 4; s += `<line class="axis" x1="${pad.l}" x2="${W - pad.r}" y1="${y(v)}" y2="${y(v)}" stroke-dasharray="2 3"/><text class="lbl" x="4" y="${y(v) + 4}">${f(v, 2)}</text>`; }
+      if (naive != null) s += `<line x1="${pad.l}" x2="${W - pad.r}" y1="${y(naive)}" y2="${y(naive)}" stroke="var(--bad)" stroke-dasharray="5 4"/><text class="lbl" x="${W - pad.r - 140}" y="${y(naive) - 4}">media simple</text>`;
+      const pts = done.map((e) => [x(e.n - 1), y(e.best_mae)]);
+      if (pts.length) s += `<polyline fill="none" stroke="var(--accent)" stroke-width="2.5" points="${pts.map((p) => p.join(',')).join(' ')}"/>`;
+      done.forEach((e) => {
+        s += `<circle cx="${x(e.n - 1)}" cy="${y(e.best_mae)}" r="4" fill="var(--accent)"><title>${esc(e.name)}: ${f(e.best_mae)}</title></circle>`;
+        if (e.hold?.mae != null) { const hx = x(e.n - 1), hy = y(e.hold.mae); s += `<path d="M${hx} ${hy - 4}L${hx + 4} ${hy}L${hx} ${hy + 4}L${hx - 4} ${hy}Z" fill="var(--hold)" opacity=".7"><title>Prueba final: ${f(e.hold.mae)}</title></path>`; }
+        if (e.rolling?.mae != null) s += `<circle cx="${x(e.n - 1)}" cy="${y(e.rolling.mae)}" r="3.5" fill="none" stroke="var(--good)" stroke-width="2"><title>Temporal: ${f(e.rolling.mae)}</title></circle>`;
+      });
+      eps.filter((e) => eps.length <= 30 || e.n % 10 === 0 || e.n === 1).forEach((e) => (s += `<text class="lbl" x="${x(e.n - 1)}" y="${Hh - 8}" text-anchor="middle">${e.n}</text>`));
+      svg.innerHTML = s;
+    }
+    const FAM = { last: 'Última encuesta', avg: 'Media ponderada', loess: 'LOESS', holt: 'Holt', kalman: 'Kalman', gp: 'Proceso gaussiano', ensemble: 'Ensembles' };
+    const PARTY = { pp: 'PP', psoe: 'PSOE', vox: 'Vox', fa: 'Sumar/FA', podemos: 'Podemos', junts: 'Junts', erc: 'ERC', pnv: 'PNV', bildu: 'Bildu', bng: 'BNG', cc: 'CC', salf: 'SALF', upn: 'UPN' };
+    async function tick() {
+      let st;
+      try { st = await fetch('data/lab/epochs.json', { cache: 'no-store' }).then((r) => r.json()); } catch { document.getElementById('status').textContent = 'esperando datos…'; return; }
+      const eps = st.epochs || [];
+      const naive = st.naive ?? null;
+      const last = [...eps].reverse().find((e) => e.best_mae != null);
+      const status = document.getElementById('status');
+      status.textContent = st.status; status.className = `badge ${st.status === 'terminado' ? 'done' : 'run'}`;
+      document.getElementById('updated').textContent = `inicio ${st.started} · ${st.n_elections} elecciones (${st.hold?.length ?? 0} apartadas) · ${st.n_polls} encuestas · ${st.workers} procesos · actualizado ${new Date().toLocaleTimeString('es-ES')}`;
+      document.getElementById('metric').textContent = st.metric || '';
+      const gain = naive && last ? (100 * (naive - last.best_mae)) / naive : null;
+      document.getElementById('kpis').innerHTML = [
+        ['Epoch', `${eps.filter((e) => e.status === 'hecho').length} / ${st.total ?? '—'}`],
+        ['Recetas probadas', st.n_tested ?? '—'],
+        ['Media simple (base)', f(naive)],
+        ['Mejor receta (CV 5×3)', f(last?.best_mae)],
+        ['Mejora vs media simple', gain == null ? '—' : `${f(gain, 1)} %`],
+        ['Prueba final (apartadas)', f(st.best_hold)],
+      ].map(([k, v]) => `<div class="kpi"><span class="muted">${k}</span><b>${v}</b></div>`).join('');
+      chart(eps, naive);
+      const all = new Map();
+      eps.forEach((e) => e.tested.forEach((t) => t.mae != null && all.set(t.label, t)));
+      const fams = {};
+      all.forEach((t) => { const g = (fams[t.family] ??= { n: 0, best: t }); g.n++; if (t.mae < g.best.mae) g.best = t; });
+      document.getElementById('families').innerHTML = `<table><thead><tr><th>Familia</th><th>recetas</th><th>mejor MAE (CV)</th><th>generales+europeas</th><th>mejor receta</th></tr></thead><tbody>` +
+        Object.entries(fams).sort((a, b) => a[1].best.mae - b[1].best.mae).map(([k, g], i) => `<tr class="${i === 0 ? 'win' : ''}"><td>${FAM[k] ?? k}</td><td>${g.n}</td><td>${f(g.best.mae)}</td><td>${f(g.best.mae_nat)}</td><td style="text-align:left;white-space:normal">${esc(g.best.label)}</td></tr>`).join('') + '</tbody></table>';
+      const to = st.turnout;
+      document.getElementById('turnout').innerHTML = `<h2 style="font-size:15px;margin:0 0 6px">Participación</h2>` + (to && !to.error ? `
+        <p class="muted">Error de la mejor receta (resultado − estimación a 30 días, fuera de muestra) frente al cambio de participación respecto a la elección anterior del mismo tipo y territorio (${to.n_elections} elecciones, cambios de ${f(to.dt_range[0], 1)} a ${f(to.dt_range[1], 1)} puntos). Correlación entre |cambio de participación| y |error|: ${f(to.abs_corr, 2)}. La participación de la elección anterior también entra como variable en los correctores ML.</p>
+        <table><thead><tr><th>Partido</th><th>elecciones</th><th>pts de error por +1 pt de participación</th><th>correlación</th></tr></thead><tbody>${to.by_party.map((r) => `<tr><td>${PARTY[r.party] ?? r.party}</td><td>${r.n}</td><td class="${r.slope > 0 ? 'down' : 'up'}">${r.slope > 0 ? '+' : ''}${f(r.slope, 3)}</td><td>${f(r.r, 2)}</td></tr>`).join('')}</tbody></table>
+        <p class="muted">Positivo: cuando sube la participación el partido saca más de lo que decían las encuestas.</p>` : '<p class="muted">Se calcula al terminar, con la receta ganadora.</p>');
+      document.getElementById('epochs').innerHTML = `<h2 style="font-size:15px;margin:0 0 6px">Epochs (la más reciente arriba)</h2>` + [...eps].reverse().map((e) => {
+        const ok = e.tested.filter((t) => t.mae != null);
+        const best = ok.length ? Math.min(...ok.map((t) => t.mae)) : null;
+        return `<details ${e.status !== 'hecho' || e.n === eps.length ? 'open' : ''}><summary><b>${e.n}. ${esc(e.name)}</b> <span class="badge ${e.status === 'hecho' ? 'done' : 'run'}">${e.status}</span>
+          ${e.status === 'hecho' && e.cv3 ? ` · CV 5×3 ${f(e.cv3.mae)} ±${f(e.cv3.sd)} · temporal ${f(e.rolling?.mae)} · prueba final ${f(e.hold?.mae)} · ${e.secs}s · ${e.adopted ? '<span class="down">adoptado</span>' : '<span class="muted">no mejora</span>'}<br><span class="muted">ganador: ${esc(e.winner)}</span>` : ` · ${e.tested.length} probadas`}</summary>
+          <p class="muted">${esc(e.idea)}</p>
+          <table><thead><tr><th>Receta</th><th>MAE (CV)</th><th>a 30 d</th><th>a 45 d</th><th>generales+europeas</th></tr></thead><tbody>
+          ${[...ok].sort((a, b) => a.mae - b.mae).map((t) => `<tr class="${t.mae === best ? 'win' : ''}"><td>${esc(t.label)}${t.repeat ? ' <span class="muted">(ya probada)</span>' : ''}</td><td>${f(t.mae)}</td><td>${f(t.by_h['30'])}</td><td>${f(t.by_h['45'])}</td><td>${f(t.mae_nat)}</td></tr>`).join('')}
+          ${e.tested.filter((t) => t.error).map((t) => `<tr><td>${esc(t.label)}</td><td colspan="4" class="up">error: ${esc(t.error)}</td></tr>`).join('')}
+          </tbody></table></details>`;
+      }).join('') + (st.best ? `<p><b>Receta final:</b> ${esc(st.best.label)} · CV ${f(st.best.mae)} · prueba final ${f(st.best.hold)}</p>` : '');
+    }
+    tick();
+    setInterval(tick, 5000);
+  </script>
+</body>
+</html>

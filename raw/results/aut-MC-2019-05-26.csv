@@ -1,0 +1,16 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Spanish Socialist Workers' Party (PSOE),psoe,212600,32.468
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,People's Party (PP),pp,211849,32.353
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Citizens–Party of the Citizenry (Cs),,78483,11.986
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Vox (Vox),vox,61998,9.468
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,We Can–Equo (Podemos–Equo),podemos,36486,5.572
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Municipalist Coalition MC–CCD–CIFA–PITP–UxA (MC–CCD),,14605,2.230
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,We Are Region (Somos Región),,13373,2.042
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Change the Region of Murcia (United Left–Greens+Anticapitalists) (CR),fa,13252,2.024
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Animalist Party Against Mistreatment of Animals (PACMA),,5561,0.849
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Communist Party of the Peoples of Spain (PCPE),,798,0.122
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,"With You, We Are Democracy (Contigo)",,641,0.098
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Seniors in Action (3e en acción),,554,0.085
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Cantonal Party (PCAN),,512,0.078
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Plural Democracy (DPL),,377,0.058
+aut-MC-2019-05-26,2019-05-26,autonomicas,MC,30,Spanish Digital Democratic Union (UDDE),,228,0.035

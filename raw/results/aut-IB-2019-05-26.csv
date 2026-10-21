@@ -1,0 +1,19 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Partit Socialista de les Illes Balears,psoe,117480,27.367
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Partido Popular,pp,95295,22.199
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Ciudadanos-Partido de la Ciudadanía,,42519,9.905
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Unidas Podemos-Unides Podem,fa;podemos,41824,9.743
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Més per Mallorca,,39415,9.182
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Vox-Baleares,vox,34871,8.123
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,El PI-Proposta per les Illes Balears,,31348,7.303
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Més per Menorca,,6058,1.411
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Partido Animalista Contra el Maltrato Animal,,6021,1.403
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Gent per Formentera+Partit Socialista de les Illes Balears+ Esquerra Unida de les Illes Balears,psoe;fa,2036,0.474
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Proposta x Eivissa,,1748,0.407
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Sa Unió de Formentera (PP-Compromís Formentera),pp,1420,0.331
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Ara Eivissa-Guanyem l’Esquerra,,1239,0.289
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Movimiento Ciudadano EPIC Ibiza,,1006,0.234
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Actúa,,838,0.195
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Agrupación Social Independiente,,785,0.183
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Moviment 4 Illes,,576,0.134
+aut-IB-2019-05-26,2019-05-26,autonomicas,IB,07,Proyecto Liberal Español,,443,0.103

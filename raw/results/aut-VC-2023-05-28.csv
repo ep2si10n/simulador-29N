@@ -1,0 +1,47 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Partido Popular (PP),pp,319981,39.282
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Partido Socialista Obrero Español (PSOE),psoe,240447,29.518
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Vox (VOX),vox,100331,12.317
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Compromís: Més-Iniciativa-Verdsequo (COMPROMÍS),fv,82878,10.174
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Unides Podem-Esquerra Unida (UP-EUPV),fa;podemos,28540,3.504
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Ciudadanos-Partido de la Ciudadanía (Cs),,12531,1.538
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Partido Animalista con el Medio Ambiente (PACMA),,7757,0.952
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Los Verdes-Ecopacifistas (CENTRO MODERADO),,4846,0.595
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Partido Comunista de los Pueblos de España (PCPE),,1461,0.179
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Esquerra Republicana del País Valencià (ERPV),,1318,0.162
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Coalició Units (UNITS),,1055,0.130
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Recortes Cero (RECORTES CERO),,897,0.110
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Partido Alicantino Regionalista -Esperanza Ciudadana (PAR-Es.C.),,641,0.079
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Alianza por el Comercio y la Vivienda (ALIANZA C V),,598,0.073
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,República Valenciana / Partit Valencianiste Europeu (RVPVE),,532,0.065
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,03,Decidix (DECIDIX),,377,0.046
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Partido Popular (PP),pp,104023,35.986
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Partido Socialista Obrero Español (PSOE),psoe,87364,30.223
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Compromís: Més-Iniciativa-Verdsequo (COMPROMÍS),fv,37825,13.085
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Vox (VOX),vox,37775,13.068
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Unides Podem-Esquerra Unida (UP-EUPV),fa;podemos,9328,3.227
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Ciudadanos-Partido de la Ciudadanía (Cs),,4005,1.385
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Centrats en la Nostra Terra (CENTRATS),,1326,0.459
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Esquerra Republicana del País Valencià (ERPV),,896,0.310
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Partido Comunista de los Pueblos de España (PCPE),,638,0.221
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Coalició Units (UNITS),,442,0.153
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Recortes Cero (RECORTES CERO),,409,0.141
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Alianza por el Comercio y la Vivienda (ALIANZA C V),,280,0.097
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,República Valenciana / Partit Valencianiste Europeu (RVPVE),,272,0.094
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,12,Decidix (DECIDIX),,233,0.081
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Partido Popular (PP),pp,457889,33.586
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Partido Socialista Obrero Español (PSOE),psoe,380331,27.897
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Compromís: Més-Iniciativa-Verdsequo (COMPROMÍS),fv,237286,17.405
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Vox (VOX),vox,172078,12.622
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Unides Podem-Esquerra Unida (UP-EUPV),fa;podemos,50284,3.688
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Ciudadanos-Partido de la Ciudadanía (Cs),,20559,1.508
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Partido Animalista con el Medio Ambiente (PACMA),,13079,0.959
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Coalició Units (UNITS),,2769,0.203
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Esquerra Republicana del País Valencià (ERPV),,2356,0.173
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Escaños en Blanco para Dejar Escaños Vacíos (ESCAÑOS EN BLANCO),,2090,0.153
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Decidix (DECIDIX),,1763,0.129
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Partido Comunista de los Pueblos de España (PCPE),,1716,0.126
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Recortes Cero (RECORTES CERO),,1620,0.119
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Por un Mundo Más Justo (PUM+J),,1373,0.101
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,República Valenciana / Partit Valencianiste Europeu (RVPVE),,941,0.069
+aut-VC-2023-05-28,2023-05-28,autonomicas,VC,46,Alianza por el Comercio y la Vivienda (ALIANZA C V),,811,0.059

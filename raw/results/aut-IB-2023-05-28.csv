@@ -1,0 +1,19 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Partido Popular,pp,161267,35.786
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Partit Socialista de les Illes Balears,psoe,119540,26.526
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,VOX,vox,62637,13.899
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,MÉS per Mallorca,,37651,8.355
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Unidas Podemos,fa;podemos,19980,4.434
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,El PI-Proposta per les Illes Balears,,17089,3.792
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,MÉS per Menorca,,6486,1.439
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Ciudadanos-Partido de la Ciudadanía,,6097,1.353
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Progreso en Verde-PACMA,,4389,0.974
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Sa Unió de Formentera (PP-Compromís),pp,1747,0.388
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Gent per Formentera + Partit Socialista de les Illes Balears,psoe,1679,0.373
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Ara Eivissa,,1407,0.312
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Proyecto Liberal Español,,817,0.181
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Coalició per Balears,,762,0.169
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,EPIC-El PI,,597,0.132
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Reset-Reinicio Político,,509,0.113
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Per Balears,,424,0.094
+aut-IB-2023-05-28,2023-05-28,autonomicas,IB,07,Nuevo Orden Nacional-Nou Ordre Nacional,,359,0.080

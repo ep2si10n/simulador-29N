@@ -1,0 +1,11 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,People's Party (PP),pp,76205,45.382
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,Spanish Socialist Workers' Party (PSOE),psoe,53562,31.898
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,Vox (Vox),vox,12773,7.607
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,We Can–United Left (Podemos–IU),fa;podemos,8543,5.088
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,Riojan Party+Empty Spain (PR+EV),,6016,3.583
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,For La Rioja (PLRi),,4349,2.590
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,Citizens–Party of the Citizenry (CS),,1473,0.877
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,Animalist Party with the Environment (PACMA),,1065,0.634
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,VINEA La Rioja (VINEA),,954,0.568
+aut-RI-2023-05-28,2023-05-28,autonomicas,RI,26,Blank Seats to Leave Empty Seats (EB),,619,0.369

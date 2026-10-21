@@ -1,0 +1,8 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-RI-2019-05-26,2019-05-26,autonomicas,RI,26,Spanish Socialist Workers' Party (PSOE),psoe,63068,38.668
+aut-RI-2019-05-26,2019-05-26,autonomicas,RI,26,People's Party (PP),pp,53925,33.062
+aut-RI-2019-05-26,2019-05-26,autonomicas,RI,26,Citizens–Party of the Citizenry (Cs),,18807,11.531
+aut-RI-2019-05-26,2019-05-26,autonomicas,RI,26,United We Can–United Left–Equo (Podemos–IU–Equo),fa;podemos,10844,6.649
+aut-RI-2019-05-26,2019-05-26,autonomicas,RI,26,Riojan Party (PR+),,7512,4.606
+aut-RI-2019-05-26,2019-05-26,autonomicas,RI,26,Vox (Vox),vox,6314,3.871
+aut-RI-2019-05-26,2019-05-26,autonomicas,RI,26,Animalist Party Against Mistreatment of Animals (PACMA),,1078,0.661

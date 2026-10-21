@@ -1,0 +1,41 @@
+{
+ "generated": "2026-10-21",
+ "polls": [
+  {
+   "pollster": "Sigma Dos",
+   "pollster_key": "sigmados",
+   "fieldwork_end": "2026-10-14",
+   "source_url": "https://www.elmundo.es/espana/encuestas/2026/10/19/6ad65700fc6c837b168b4590.html",
+   "seats": {
+    "pp": 127.5,
+    "vox": 18.5,
+    "psoe": 91,
+    "fa": 1,
+    "bildu": 7.5,
+    "erc": 5.5,
+    "pnv": 5.0,
+    "junts": 5.0,
+    "bng": 1,
+    "cc": 1,
+    "upn": 1
+   },
+   "vote_pct": null
+  }
+ ],
+ "average": {
+  "seats": {
+   "bildu": 7.5,
+   "bng": 1.0,
+   "cc": 1.0,
+   "erc": 5.5,
+   "fa": 1.0,
+   "junts": 5.0,
+   "pnv": 5.0,
+   "pp": 127.5,
+   "psoe": 91.0,
+   "upn": 1.0,
+   "vox": 18.5
+  },
+  "vote_pct": null
+ }
+}

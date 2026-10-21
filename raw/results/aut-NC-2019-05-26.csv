@@ -1,0 +1,12 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Sum Navarre (NA+),upn,127346,36.573
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Socialist Party of Navarre (PSN–PSOE),psoe,71838,20.632
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Yes to the Future (GBai),,60323,17.325
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Basque Country Gather (EH Bildu),bildu,50631,14.541
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,We Can (Podemos),podemos,16518,4.744
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Left (I–E (n)),fa,10472,3.008
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Vox (Vox),vox,4546,1.306
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Equo–European Green Party (Equo),,1597,0.459
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Navarrese Cannabis Representation (RCN/NOK),,1251,0.359
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Navarrese Freedom (Ln),,502,0.144
+aut-NC-2019-05-26,2019-05-26,autonomicas,NC,31,Internationalist Solidarity and Self-Management (SAIn),,438,0.126

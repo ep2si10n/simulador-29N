@@ -1,0 +1,42 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,Partido Socialista Obrero Español (PSOE),psoe,231662,25.564
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,Partido Popular (PP),pp,181867,20.069
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,Ciudadanos-Partido de la Ciudadanía (Cs),,173468,19.143
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,VOX,vox,102239,11.282
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,COALICIÓ COMPROMÍS: BLOC-INICIATIVA-VERDSEQUO (COMPROMÍS),fv,99488,10.979
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,COALICIÓ UNIDES PODEM-ESQUERRA UNIDA (UNIDES PODEM-EUPV),fa;podemos,83855,9.254
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,Partido Animalista contra el Maltrato Animal (PACMA),,14271,1.575
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,COALICIÓ AVANT ADELANTE LOS VERDES ECOPACIFISTAS (AVANT Los Verdes),,3980,0.439
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,Tercera edad en acción,,1869,0.206
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,Partido Comunista de los Pueblos de España (PCPE),,1757,0.194
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,Esquerra Republicana del País Valencià,,1471,0.162
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,Actúa,,1230,0.136
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,República Valenciana/Partit Valencianiste Europeu (RVPVE),,929,0.103
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,03,Alternativa Republicana/ALTER,,620,0.068
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,Partido Socialista Obrero Español (PSOE),psoe,85584,27.593
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,Partido Popular (PP),pp,66733,21.515
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,Ciudadanos-Partido de la Ciudadanía (Cs),,46941,15.134
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,COALICIÓ COMPROMÍS: BLOC-INICIATIVA-VERDSEQUO (COMPROMÍS),fv,44748,14.427
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,VOX,vox,32461,10.466
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,COALICIÓ UNIDES PODEM-ESQUERRA UNIDA (UNIDES PODEM-EUPV),fa;podemos,24140,7.783
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,Partido Animalista contra el Maltrato Animal (PACMA),,3604,1.162
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,Esquerra Republicana del País Valencià,,1097,0.354
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,COALICIÓ AVANT ADELANTE LOS VERDES ECOPACIFISTAS (AVANT Los Verdes),,784,0.253
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,Partido Comunista de los Pueblos de España (PCPE),,576,0.186
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,Poble Democràtic Podem (Poble Democràtic),,428,0.138
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,12,Falange Española de las JONS,,300,0.097
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,Partido Socialista Obrero Español (PSOE),psoe,326663,22.632
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,COALICIÓ COMPROMÍS: BLOC-INICIATIVA-VERDSEQUO (COMPROMÍS),fv,299404,20.744
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,Partido Popular (PP),pp,259934,18.009
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,Ciudadanos-Partido de la Ciudadanía (Cs),,250267,17.339
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,VOX,vox,146908,10.178
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,COALICIÓ UNIDES PODEM-ESQUERRA UNIDA (UNIDES PODEM-EUPV),fa;podemos,107397,7.441
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,Partido Animalista contra el Maltrato Animal (PACMA),,20572,1.425
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,COALICIÓ SOM VALENCIANS EN MOVIMENT (UIG-SOM-CUIDES),,7102,0.492
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,COALICIÓ AVANT ADELANTE LOS VERDES ECOPACIFISTAS (AVANT Los Verdes),,3840,0.266
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,Poble Democràtic Podem (Poble Democràtic),,2503,0.173
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,Esquerra Republicana del País Valencià,,2501,0.173
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,Partido Comunista de los Pueblos de España (PCPE),,2176,0.151
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,República Valenciana/Partit Valencianiste Europeu (RVPVE),,1179,0.082
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,Falange Española de las JONS,,1007,0.070
+aut-VC-2019-04-28,2019-04-28,autonomicas,VC,46,Auna Comunitat Valenciana (AUNA CV),,981,0.068

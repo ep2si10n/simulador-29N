@@ -1,0 +1,12 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,Spanish Socialist Workers' Party (PSOE),psoe,187462,35.257
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,People's Party (PP),pp,93147,17.519
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,Citizens–Party of the Citizenry (Cs),,74271,13.968
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,We Can Asturias (Podemos Asturies),podemos,58674,11.035
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,United Left–Asturian Left: Asturias by the Left (IU–IAS),fa,35174,6.615
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,Forum of Citizens (FAC),,34687,6.524
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,Vox (Vox),vox,34210,6.434
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,Animalist Party Against Mistreatment of Animals (PACMA),,3426,0.644
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,Greens–Equo (V–Q),,2128,0.400
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,Andecha Astur (Andecha),,1584,0.298
+aut-AS-2019-05-26,2019-05-26,autonomicas,AS,33,Communist Party of the Workers of Spain (PCTE),,1083,0.204

@@ -1,0 +1,12 @@
+election_id,date,type,region,province_id,candidacy,party_ids,votes,pct
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,Navarrese People's Union (UPN),upn,92392,28.009
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,Socialist Party of Navarre (PSN–PSOE),psoe,68247,20.690
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,Basque Country Gather (EH Bildu),bildu,56535,17.139
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,Yes to the Future (GBai),,43660,13.236
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,People's Party (PP),pp,24019,7.282
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,We Can–United Left–Assembly–Green Alliance–Greens Equo (Contigo/Zurekin),fa;podemos,20095,6.092
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,Vox (Vox),vox,14197,4.304
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,For a Fairer World (PUM+J),,1740,0.527
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,Citizens–Party of the Citizenry (CS),,1273,0.386
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,Sunflower (Eguzkilore),,1261,0.382
+aut-NC-2023-05-28,2023-05-28,autonomicas,NC,31,Foral Will (Voluntad Foral),,582,0.176

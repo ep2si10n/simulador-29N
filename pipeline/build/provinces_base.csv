@@ -1,0 +1,53 @@
+id,name,community,seats
+01,Araba/Álava,País Vasco,4
+02,Albacete,Castilla-La Mancha,4
+03,Alicante/Alacant,Comunitat Valenciana,12
+04,Almería,Andalucía,6
+05,Ávila,Castilla y León,3
+06,Badajoz,Extremadura,5
+07,Illes Balears,Illes Balears,8
+08,Barcelona,Cataluña,32
+09,Burgos,Castilla y León,4
+10,Cáceres,Extremadura,4
+11,Cádiz,Andalucía,8
+12,Castellón/Castelló,Comunitat Valenciana,5
+13,Ciudad Real,Castilla-La Mancha,5
+14,Córdoba,Andalucía,6
+15,A Coruña,Galicia,8
+16,Cuenca,Castilla-La Mancha,3
+17,Girona,Cataluña,6
+18,Granada,Andalucía,7
+19,Guadalajara,Castilla-La Mancha,3
+20,Gipuzkoa,País Vasco,6
+21,Huelva,Andalucía,5
+22,Huesca,Aragón,3
+23,Jaén,Andalucía,5
+24,León,Castilla y León,4
+25,Lleida,Cataluña,4
+26,La Rioja,La Rioja,4
+27,Lugo,Galicia,4
+28,Madrid,Comunidad de Madrid,38
+29,Málaga,Andalucía,11
+30,Murcia,Región de Murcia,10
+31,Navarra,Navarra,5
+32,Ourense,Galicia,4
+33,Asturias,Asturias,7
+34,Palencia,Castilla y León,3
+35,Las Palmas,Canarias,8
+36,Pontevedra,Galicia,7
+37,Salamanca,Castilla y León,4
+38,Santa Cruz de Tenerife,Canarias,7
+39,Cantabria,Cantabria,5
+40,Segovia,Castilla y León,3
+41,Sevilla,Andalucía,12
+42,Soria,Castilla y León,2
+43,Tarragona,Cataluña,6
+44,Teruel,Aragón,3
+45,Toledo,Castilla-La Mancha,6
+46,Valencia/València,Comunitat Valenciana,16
+47,Valladolid,Castilla y León,5
+48,Bizkaia,País Vasco,8
+49,Zamora,Castilla y León,3
+50,Zaragoza,Aragón,7
+51,Ceuta,Ceuta,1
+52,Melilla,Melilla,1
