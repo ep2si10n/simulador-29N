@@ -319,6 +319,7 @@ function applyPolls(newPolls, newSenate) {
   update();
 }
 const updBtn = $('#update-polls');
+updBtn.hidden = !['localhost', '127.0.0.1'].includes(location.hostname); // needs server.py: hidden on the public site
 const updStatus = $('#poll-status');
 updBtn.addEventListener('click', async () => {
   updBtn.disabled = true;
